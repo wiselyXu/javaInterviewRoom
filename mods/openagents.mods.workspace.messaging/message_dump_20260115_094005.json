@@ -1,0 +1,4786 @@
+{
+  "SmartCore5680_1768468162134_a1uglv31j": {
+    "event_name": "thread.channels.list",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768468162134_a1uglv31j",
+    "timestamp": 1768468162,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i71DZzonABN9aeSoeCqn4f5Y3tgd87wskUeNoPcVoGcPYYelVp3kPWmhhosg2a7e",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768468162397_jq3nwkhwk": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768468162397_jq3nwkhwk",
+    "timestamp": 1768468162,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i71DZzonABN9aeSoeCqn4f5Y3tgd87wskUeNoPcVoGcPYYelVp3kPWmhhosg2a7e",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768468494961_uo3ppycqh": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768468494961_uo3ppycqh",
+    "timestamp": 1768468495,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "ideas",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i71DZzonABN9aeSoeCqn4f5Y3tgd87wskUeNoPcVoGcPYYelVp3kPWmhhosg2a7e",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768468495547_2veft9ftm": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768468495547_2veft9ftm",
+    "timestamp": 1768468495,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i71DZzonABN9aeSoeCqn4f5Y3tgd87wskUeNoPcVoGcPYYelVp3kPWmhhosg2a7e",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768468557562_9m1imvrt8": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768468557562_9m1imvrt8",
+    "timestamp": 1768468557,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "content": {
+        "text": "\u6211\u8fd9\u91cc\u6709\u4e00\u4efd\u7b80\u5386 \uff0c interviewer \u4f60\u770b\u4e00\u4e0b\uff0c \u5e76\u7ed9\u8fd9\u4f4dinterviewee \u5f00\u59cb\u9762\u8bd5",
+        "files": [
+          {
+            "file_id": null,
+            "filename": "\u5f90\u94a2-\u6280\u672f\u7814\u53d1-14-v2.docx",
+            "size": null,
+            "storage_type": "cache"
+          }
+        ]
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i71DZzonABN9aeSoeCqn4f5Y3tgd87wskUeNoPcVoGcPYYelVp3kPWmhhosg2a7e",
+    "source_agent_group": "guest"
+  },
+  "4d1358f9-cf41-4e08-935b-b1398ce5b111": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "4d1358f9-cf41-4e08-935b-b1398ce5b111",
+    "timestamp": 1768468567,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6536\u5230\u7b80\u5386\uff0c\u5df2\u51c6\u5907\u5c31\u7eea\u3002\u7b49\u5f85\u60a8\u7684\"\u5f00\u59cb\u9762\u8bd5\"\u6307\u4ee4\uff0c\u6211\u5c06\u6b63\u5f0f\u5f00\u59cb\u5bf9\u5f90\u94a2\u5148\u751f\u7684\u6280\u672f\u9762\u8bd5\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "c39ca043-e201-4c08-bec4-5435320ded5b": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "c39ca043-e201-4c08-bec4-5435320ded5b",
+    "timestamp": 1768468570,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u9762\u8bd5\u5b98\u597d\uff0c\u6211\u5df2\u7ecf\u51c6\u5907\u597d\u5f00\u59cb\u9762\u8bd5\u4e86\uff0c\u8bf7\u5f00\u59cb\u63d0\u95ee\u3002"
+      },
+      "reply_to_id": "364b7f66-cb6f-491f-b7df-a5d95e15b583",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "6d2737ec-16c6-4764-a585-c4e6e78b305b": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "6d2737ec-16c6-4764-a585-c4e6e78b305b",
+    "timestamp": 1768468578,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u9762\u8bd5\u5b98\u597d\uff0c\u6211\u662f\u5f90\u94a2\uff0c\u5df2\u51c6\u5907\u5c31\u7eea\uff0c\u8bf7\u5f00\u59cb\u9762\u8bd5\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768468581929_qy5aftgcj": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768468581929_qy5aftgcj",
+    "timestamp": 1768468582,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "content": {
+        "text": "\u201c\u5f00\u59cb\u9762\u8bd5\u201d"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "i71DZzonABN9aeSoeCqn4f5Y3tgd87wskUeNoPcVoGcPYYelVp3kPWmhhosg2a7e",
+    "source_agent_group": "guest"
+  },
+  "7c8d74ea-764d-475a-a19f-dff731bf16a0": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "7c8d74ea-764d-475a-a19f-dff731bf16a0",
+    "timestamp": 1768468584,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u4f60\u597d\uff0c\u6b22\u8fce\u53c2\u52a0Java\u6280\u672f\u4e13\u5bb6\u9762\u8bd5\u3002\u5148\u8bf7\u4f60\u505a\u4e2a\u7b80\u5355\u7684\u81ea\u6211\u4ecb\u7ecd\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "9dce4291-9ae5-4473-828d-9db5b4bea625": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "9dce4291-9ae5-4473-828d-9db5b4bea625",
+    "timestamp": 1768468585,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u662f\u5f90\u94a2\uff0c14\u5e74Java\u7814\u53d1\u7ecf\u9a8c\uff0c\u4e13\u6ce8\u5206\u5e03\u5f0f\u7cfb\u7edf\u67b6\u6784\u8bbe\u8ba1\uff0c\u719f\u6089Spring\u751f\u6001\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "e077fff9-14e7-4742-996a-2e453d1626cd": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "e077fff9-14e7-4742-996a-2e453d1626cd",
+    "timestamp": 1768468588,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u60a8\u3002\u6211\u5df2\u6536\u5230\u60a8\u7684\u7b80\u5386\u5e76\u51c6\u5907\u597d\u5f00\u59cb\u9762\u8bd5\uff0c\u9700\u8981\u7b49\u5f85\u9762\u8bd5\u5b98\uff08SmartCore5680\uff09\u53d1\u51fa\u6b63\u5f0f\u7684\"\u5f00\u59cb\u9762\u8bd5\"\u6307\u4ee4\u540e\uff0c\u6211\u4eec\u5c31\u53ef\u4ee5\u5f00\u59cb\u4e86\u3002\u8bf7\u60a8\u7a0d\u7b49\u7247\u523b\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "67905312-3e52-44e6-94bd-3a748c96299a": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "67905312-3e52-44e6-94bd-3a748c96299a",
+    "timestamp": 1768468596,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u60a8\u3002\u6211\u4eec\u73b0\u5728\u5f00\u59cb\u6280\u672f\u9762\u8bd5\uff0c\u9996\u5148\u8bf7\u60a8\u8c08\u8c08\u57fa\u4e8eJava\u8bbe\u8ba1\u5206\u5e03\u5f0f\u7cfb\u7edf\u7684\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "e246e54b-2a47-425f-8045-df2552d37617": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "e246e54b-2a47-425f-8045-df2552d37617",
+    "timestamp": 1768468598,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u4f60\u597d\uff0c\u6b22\u8fce\u53c2\u52a0Java\u6280\u672f\u4e13\u5bb6\u9762\u8bd5\u3002\u5148\u8bf7\u4f60\u505a\u4e2a\u7b80\u5355\u7684\u81ea\u6211\u4ecb\u7ecd\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "6bd7f989-9a58-403a-b63f-67f77d3f44e3": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "6bd7f989-9a58-403a-b63f-67f77d3f44e3",
+    "timestamp": 1768468600,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u662f\u5f90\u94a2\uff0c14\u5e74Java\u7814\u53d1\u7ecf\u9a8c\uff0c\u4e13\u6ce8\u5206\u5e03\u5f0f\u7cfb\u7edf\u67b6\u6784\u8bbe\u8ba1\uff0c\u719f\u6089Spring\u751f\u6001\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "7bfa7ec9-482e-47ea-b4ea-79811462362b": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "7bfa7ec9-482e-47ea-b4ea-79811462362b",
+    "timestamp": 1768468602,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u4f60\u597d\uff0c14\u5e74Java\u7ecf\u9a8c\u5f88\u4e30\u5bcc\u3002\u90a3\u6211\u4eec\u4eceJVM\u5f00\u59cb\uff0c\u8bf7\u8bf4\u8bf4JVM\u5185\u5b58\u7ed3\u6784\u548c\u5783\u573e\u56de\u6536\u673a\u5236\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "80f92488-0b0c-4008-9bf6-4599d682d48c": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "80f92488-0b0c-4008-9bf6-4599d682d48c",
+    "timestamp": 1768468605,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u4f60\u597d\uff0c\u6b22\u8fce\u53c2\u52a0Java\u6280\u672f\u4e13\u5bb6\u9762\u8bd5\u3002\u5148\u8bf7\u4f60\u505a\u4e2a\u7b80\u5355\u7684\u81ea\u6211\u4ecb\u7ecd\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "47f569a8-23eb-46e3-a3d1-cfc50968b3b7": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "47f569a8-23eb-46e3-a3d1-cfc50968b3b7",
+    "timestamp": 1768468608,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u60a8\u3002\u6211\u4eec\u73b0\u5728\u5f00\u59cb\u6280\u672f\u9762\u8bd5\uff0c\u9996\u5148\u8bf7\u60a8\u8c08\u8c08\u57fa\u4e8eJava\u8bbe\u8ba1\u5206\u5e03\u5f0f\u7cfb\u7edf\u7684\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "91813d85-650a-4ae0-bb66-1db7163f2fe5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "91813d85-650a-4ae0-bb66-1db7163f2fe5",
+    "timestamp": 1768468610,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u60a8\u3002\u6211\u4eec\u73b0\u5728\u5f00\u59cb\u6280\u672f\u9762\u8bd5\uff0c\u9996\u5148\u8bf7\u60a8\u8c08\u8c08\u57fa\u4e8eJava\u8bbe\u8ba1\u5206\u5e03\u5f0f\u7cfb\u7edf\u7684\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "d5159536-14d0-4921-bf41-8e12458865e5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "d5159536-14d0-4921-bf41-8e12458865e5",
+    "timestamp": 1768468611,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u60a8\u3002\u6211\u4eec\u73b0\u5728\u5f00\u59cb\u6280\u672f\u9762\u8bd5\uff0c\u9996\u5148\u8bf7\u60a8\u8c08\u8c08\u57fa\u4e8eJava\u8bbe\u8ba1\u5206\u5e03\u5f0f\u7cfb\u7edf\u7684\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "0ba0646b-38ae-45dd-90b2-dda8bdb1ad3e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "0ba0646b-38ae-45dd-90b2-dda8bdb1ad3e",
+    "timestamp": 1768468611,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u597d\u7684\uff0c\u6211\u4f1a\u8010\u5fc3\u7b49\u5f85\u9762\u8bd5\u5b98\u7684\u6b63\u5f0f\u6307\u4ee4\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "4657c3b0-4d51-4f4c-abeb-08bdf446a7ff": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "4657c3b0-4d51-4f4c-abeb-08bdf446a7ff",
+    "timestamp": 1768468619,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\uff0c\u4f7f\u7528Eureka\u505a\u670d\u52a1\u53d1\u73b0\uff0cFeign\u5b9e\u73b0\u670d\u52a1\u95f4\u901a\u4fe1\uff0cHystrix\u4fdd\u8bc1\u7194\u65ad\u964d\u7ea7\u3002"
+      },
+      "reply_to_id": "a0bdfe2d-36ad-4510-8bf0-dc9774bdaa52",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "a81dc0bd-2054-48a5-93f0-63f91be8c30a": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "a81dc0bd-2054-48a5-93f0-63f91be8c30a",
+    "timestamp": 1768468627,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\uff0c\u4f7f\u7528Eureka\u505a\u670d\u52a1\u53d1\u73b0\uff0cFeign\u5b9e\u73b0\u670d\u52a1\u95f4\u901a\u4fe1\uff0cHystrix\u4fdd\u8bc1\u7194\u65ad\u964d\u7ea7\u3002"
+      },
+      "reply_to_id": "56bcb6f4-9095-45f6-aaf9-0e8c63ba843f",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "05bb5c63-f6f9-477a-b1af-61e273446fea": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "05bb5c63-f6f9-477a-b1af-61e273446fea",
+    "timestamp": 1768468638,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\uff0c\u4f7f\u7528Eureka\u505a\u670d\u52a1\u53d1\u73b0\uff0cFeign\u5b9e\u73b0\u670d\u52a1\u95f4\u901a\u4fe1\uff0cHystrix\u4fdd\u8bc1\u7194\u65ad\u964d\u7ea7\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "09acf6f7-9633-4f87-bd4d-d845e6ecaa83": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "09acf6f7-9633-4f87-bd4d-d845e6ecaa83",
+    "timestamp": 1768468641,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u60a8\u3002\u6211\u4eec\u73b0\u5728\u5f00\u59cb\u6280\u672f\u9762\u8bd5\uff0c\u9996\u5148\u8bf7\u60a8\u8c08\u8c08\u57fa\u4e8eJava\u8bbe\u8ba1\u5206\u5e03\u5f0f\u7cfb\u7edf\u7684\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "97371f69-0f92-421b-b7f6-1f49d505bec3": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "97371f69-0f92-421b-b7f6-1f49d505bec3",
+    "timestamp": 1768468644,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\uff0c\u4f7f\u7528Eureka\u505a\u670d\u52a1\u53d1\u73b0\uff0cFeign\u5b9e\u73b0\u670d\u52a1\u95f4\u901a\u4fe1\uff0cHystrix\u4fdd\u8bc1\u7194\u65ad\u964d\u7ea7\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "90a069cf-fce0-4c31-8984-5067a7fb41a7": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "90a069cf-fce0-4c31-8984-5067a7fb41a7",
+    "timestamp": 1768468650,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\uff0c\u4f7f\u7528Eureka\u505a\u670d\u52a1\u53d1\u73b0\uff0cFeign\u5b9e\u73b0\u670d\u52a1\u95f4\u901a\u4fe1\uff0cHystrix\u4fdd\u8bc1\u7194\u65ad\u964d\u7ea7\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "7bb2428c-2030-4aa1-8106-d6334e3411d0": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "7bb2428c-2030-4aa1-8106-d6334e3411d0",
+    "timestamp": 1768468680,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f88\u597d\uff0c\u5f90\u94a2\u5148\u751f\u3002\u90a3\u8bf7\u4f60\u5177\u4f53\u8c08\u8c08\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u8bbe\u8ba1\u548c\u5b9e\u73b0\u5206\u5e03\u5f0f\u4e8b\u52a1\u7684\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "b28aa11f-781e-4573-8d6e-5b6a38e2f0f7": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "b28aa11f-781e-4573-8d6e-5b6a38e2f0f7",
+    "timestamp": 1768468684,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f88\u597d\uff0c\u5f90\u94a2\u5148\u751f\u3002\u90a3\u8bf7\u4f60\u5177\u4f53\u8c08\u8c08\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u8bbe\u8ba1\u548c\u5b9e\u73b0\u5206\u5e03\u5f0f\u4e8b\u52a1\u7684\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "fd6d92ad-d980-4d65-afa8-9cc3b253b848": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "fd6d92ad-d980-4d65-afa8-9cc3b253b848",
+    "timestamp": 1768468688,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u91c7\u7528Saga\u6a21\u5f0f\u5b9e\u73b0\u5206\u5e03\u5f0f\u4e8b\u52a1\uff0c\u901a\u8fc7\u8865\u507f\u673a\u5236\u5904\u7406\u8de8\u670d\u52a1\u64cd\u4f5c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "db7a6d57-8af1-4a4f-9d39-04c226459b8a": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "db7a6d57-8af1-4a4f-9d39-04c226459b8a",
+    "timestamp": 1768468700,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u6211\u662f\u672c\u6b21\u9762\u8bd5\u7684\u9762\u8bd5\u5b98\u3002\u60a8\u5df2\u7ecf\u505a\u8fc7\u81ea\u6211\u4ecb\u7ecd\uff0c\u8ba9\u6211\u4eec\u76f4\u63a5\u5f00\u59cb\u6280\u672f\u9762\u8bd5\u3002\u8bf7\u60a8\u5148\u8c08\u8c08\u57fa\u4e8eJava\u8bbe\u8ba1\u5206\u5e03\u5f0f\u7cfb\u7edf\u7684\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "3176a16c-d8e0-4697-9b71-2fea2f301427": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "3176a16c-d8e0-4697-9b71-2fea2f301427",
+    "timestamp": 1768468706,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\u60a8\u597d\uff0c\u5f88\u9ad8\u5174\u89c1\u5230\u60a8\u3002\u6211\u4eec\u73b0\u5728\u5f00\u59cb\u6280\u672f\u9762\u8bd5\uff0c\u9996\u5148\u8bf7\u60a8\u8c08\u8c08\u57fa\u4e8eJava\u8bbe\u8ba1\u5206\u5e03\u5f0f\u7cfb\u7edf\u7684\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "a3b712cc-815e-4a26-b5d9-3a3d73599057": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "a3b712cc-815e-4a26-b5d9-3a3d73599057",
+    "timestamp": 1768468708,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f88\u597d\uff0c\u5f90\u94a2\u5148\u751f\u3002\u90a3\u8bf7\u4f60\u5177\u4f53\u8c08\u8c08\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u8bbe\u8ba1\u548c\u5b9e\u73b0\u5206\u5e03\u5f0f\u4e8b\u52a1\u7684\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "7b55c213-afb5-4a44-875c-59550222e44d": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "7b55c213-afb5-4a44-875c-59550222e44d",
+    "timestamp": 1768468710,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Spring Cloud\u548cSpring Boot\u5728\u4f60\u9879\u76ee\u4e2d\u662f\u5982\u4f55\u7ed3\u5408\u4f7f\u7528\u7684\uff1f\u9047\u5230\u8fc7\u4ec0\u4e48\u6027\u80fd\u95ee\u9898\u5417\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "9021e446-e3ba-40ae-8240-93f2db0131ac": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "9021e446-e3ba-40ae-8240-93f2db0131ac",
+    "timestamp": 1768468711,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Java\u5e76\u53d1\u7f16\u7a0b\u65b9\u9762\uff0c\u4f60\u5e38\u7528\u7684\u5e76\u53d1\u5de5\u5177\u7c7b\u6709\u54ea\u4e9b\uff1f\u8bf7\u4e3e\u4f8b\u8bf4\u660e\u5b9e\u9645\u5e94\u7528\u573a\u666f\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "6bc04c09-fb51-4cb4-be70-0511eb583237": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "6bc04c09-fb51-4cb4-be70-0511eb583237",
+    "timestamp": 1768468713,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "HashMap\u548cConcurrentHashMap\u7684\u533a\u522b\u662f\u4ec0\u4e48\uff1f\u4ec0\u4e48\u573a\u666f\u4e0b\u4f7f\u7528ConcurrentHashMap\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "89c16806-577a-4cca-bbf1-dff5f0685bad": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "89c16806-577a-4cca-bbf1-dff5f0685bad",
+    "timestamp": 1768468715,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "JVM\u8c03\u4f18\u65b9\u9762\uff0c\u4f60\u5982\u4f55\u89e3\u51b3\u5185\u5b58\u6ea2\u51fa\u548c\u6027\u80fd\u74f6\u9888\u95ee\u9898\uff1f\u8bf7\u5206\u4eab\u5177\u4f53\u6848\u4f8b\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "12d57d44-3d3d-48c5-b0fb-94508ebdaa02": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "12d57d44-3d3d-48c5-b0fb-94508ebdaa02",
+    "timestamp": 1768468717,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u91c7\u7528Saga\u6a21\u5f0f\u5b9e\u73b0\u5206\u5e03\u5f0f\u4e8b\u52a1\uff0c\u901a\u8fc7\u8865\u507f\u673a\u5236\u5904\u7406\u8de8\u670d\u52a1\u64cd\u4f5c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "7d449fb0-5a76-427c-a60d-60ebb7975e51": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "7d449fb0-5a76-427c-a60d-60ebb7975e51",
+    "timestamp": 1768468717,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6d88\u606f\u4e2d\u95f4\u4ef6\u9009\u62e9\u4e0a\uff0cRocketMQ\u548cKafka\u7684\u533a\u522b\u662f\u4ec0\u4e48\uff1f\u4f60\u5982\u4f55\u5728\u9879\u76ee\u4e2d\u505a\u6280\u672f\u9009\u578b\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "1bca5b93-7b8f-416f-9214-e3606b48b317": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "1bca5b93-7b8f-416f-9214-e3606b48b317",
+    "timestamp": 1768468719,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Redis\u5728\u9879\u76ee\u4e2d\u4e3b\u8981\u627f\u62c5\u54ea\u4e9b\u89d2\u8272\uff1f\u5982\u4f55\u89e3\u51b3\u7f13\u5b58\u7a7f\u900f\u3001\u7f13\u5b58\u51fb\u7a7f\u7b49\u95ee\u9898\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "1d4426ae-72bc-4c7f-92c9-77d5e829cb63": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "1d4426ae-72bc-4c7f-92c9-77d5e829cb63",
+    "timestamp": 1768468723,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6570\u636e\u5e93\u4f18\u5316\u65b9\u9762\uff0c\u4f60\u5982\u4f55\u8fdb\u884cSQL\u8c03\u4f18\u548c\u7d22\u5f15\u8bbe\u8ba1\uff1f\u8bf7\u5206\u4eab\u5b9e\u8df5\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "db1558b1-26b4-46c0-9970-9b5fb4a7f3df": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "db1558b1-26b4-46c0-9970-9b5fb4a7f3df",
+    "timestamp": 1768468723,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\uff0c\u4f7f\u7528Eureka\u505a\u670d\u52a1\u53d1\u73b0\uff0cFeign\u5b9e\u73b0\u670d\u52a1\u95f4\u901a\u4fe1\uff0cHystrix\u4fdd\u8bc1\u7194\u65ad\u964d\u7ea7\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "6edcf626-d2e7-4612-b4ea-8d1aaa2307e9": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "6edcf626-d2e7-4612-b4ea-8d1aaa2307e9",
+    "timestamp": 1768468725,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5bb9\u5668\u5316\u90e8\u7f72\u65b9\u9762\uff0cDocker\u548cKubernetes\u7684\u4f7f\u7528\u7ecf\u9a8c\u5982\u4f55\uff1f\u9047\u5230\u8fc7\u54ea\u4e9b\u6311\u6218\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "a6ef8058-ce91-49e5-9e8f-a18edaf6338f": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "a6ef8058-ce91-49e5-9e8f-a18edaf6338f",
+    "timestamp": 1768468730,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\uff0c\u4f7f\u7528Eureka\u505a\u670d\u52a1\u53d1\u73b0\uff0cFeign\u5b9e\u73b0\u670d\u52a1\u95f4\u901a\u4fe1\uff0cHystrix\u4fdd\u8bc1\u7194\u65ad\u964d\u7ea7\u3002"
+      },
+      "reply_to_id": "9bcd9968-366c-4a05-9c58-3857748cb754",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "f653661c-d980-4143-9d23-b387637fad43": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "f653661c-d980-4143-9d23-b387637fad43",
+    "timestamp": 1768468735,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\uff0c\u4eca\u5929\u662f\u6211\u6765\u9762\u8bd5\u60a8\u3002\u8bf7\u56de\u7b54\u6211\u4e4b\u524d\u7684\u95ee\u9898\uff1a\u5bb9\u5668\u5316\u90e8\u7f72\u65b9\u9762\uff0cDocker\u548cKubernetes\u7684\u4f7f\u7528\u7ecf\u9a8c\u5982\u4f55\uff1f\u9047\u5230\u8fc7\u54ea\u4e9b\u6311\u6218\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "d343840f-8166-4c16-b191-90c90b047b5c": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "d343840f-8166-4c16-b191-90c90b047b5c",
+    "timestamp": 1768468736,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Saga\u6a21\u5f0f\u914d\u5408\u672c\u5730\u4e8b\u52a1\u8868\uff0c\u901a\u8fc7\u4e8b\u4ef6\u9a71\u52a8\u548c\u8865\u507f\u4e8b\u52a1\u4fdd\u8bc1\u6700\u7ec8\u4e00\u81f4\u6027\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "4db53822-dabc-4ca0-90d9-70f43b9cd2a7": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "4db53822-dabc-4ca0-90d9-70f43b9cd2a7",
+    "timestamp": 1768468737,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f88\u597d\u3002\u90a3\u4f60\u5728\u5fae\u670d\u52a1\u67b6\u6784\u4e2d\u5982\u4f55\u8fdb\u884c\u670d\u52a1\u7684\u76d1\u63a7\u548c\u6cbb\u7406\uff1f\u4f7f\u7528\u8fc7\u54ea\u4e9b\u5de5\u5177\u548c\u6280\u672f\u6808\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "52fa921a-7713-483a-b395-f9ce713d1b25": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "52fa921a-7713-483a-b395-f9ce713d1b25",
+    "timestamp": 1768468739,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u8c08\u8c08\u4f60\u5bf9Java\u65b0\u7248\u672c\u7279\u6027\u7684\u4e86\u89e3\uff0c\u6bd4\u5982Java 8\u7684Stream API\u548cLambda\u8868\u8fbe\u5f0f\u5728\u5b9e\u9645\u9879\u76ee\u4e2d\u7684\u5e94\u7528\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "6142a105-54aa-4f1d-8776-1ff207a0d735": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "6142a105-54aa-4f1d-8776-1ff207a0d735",
+    "timestamp": 1768468741,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6700\u540e\uff0c\u8bf7\u5206\u4eab\u4e00\u4e2a\u4f60\u4e3b\u5bfc\u7684\u6700\u6709\u6280\u672f\u6311\u6218\u6027\u7684\u9879\u76ee\uff0c\u4ee5\u53ca\u4f60\u5728\u5176\u4e2d\u626e\u6f14\u7684\u5173\u952e\u89d2\u8272\u548c\u8d21\u732e\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "5db23539-942c-4595-86e7-8d451eaa3c0a": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "5db23539-942c-4595-86e7-8d451eaa3c0a",
+    "timestamp": 1768468745,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "Spring Boot\u7b80\u5316\u5e94\u7528\u5f00\u53d1\uff0cSpring Cloud\u63d0\u4f9b\u5fae\u670d\u52a1\u6cbb\u7406\u3002\u9047\u5230\u8fc7\u670d\u52a1\u53d1\u73b0\u96ea\u5d29\u548cFeign\u8d85\u65f6\u95ee\u9898\u3002"
+      },
+      "reply_to_id": "bb472563-b120-43a9-b458-32dd39435415",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "f07a3edf-4c77-44da-96bf-c587db422521": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "f07a3edf-4c77-44da-96bf-c587db422521",
+    "timestamp": 1768468753,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u5e38\u7528ConcurrentHashMap\u3001ThreadPoolExecutor\u3001CountDownLatch\u3002\u6bd4\u5982\u8ba2\u5355\u5904\u7406\u7528\u7ebf\u7a0b\u6c60\u5e76\u53d1\u63d0\u4ea4\u8ba2\u5355\u3002"
+      },
+      "reply_to_id": "1cce84bd-91ea-4dac-9d11-8d1dd921ee44",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "763e0975-68e1-429a-93ee-286e4b378609": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "763e0975-68e1-429a-93ee-286e4b378609",
+    "timestamp": 1768468756,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f90\u94a2\u5148\u751f\uff0c\u6211\u662f\u4eca\u5929\u7684\u9762\u8bd5\u5b98\u3002\u8bf7\u60a8\u5148\u505a\u4e2a\u7b80\u5355\u7684\u81ea\u6211\u4ecb\u7ecd\uff0c\u5305\u62ec\u60a8\u7684\u6280\u672f\u80cc\u666f\u548c\u4e3b\u8981\u9879\u76ee\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "34b2af2a-114e-4d2e-8a02-c2fa8c2aa542": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "34b2af2a-114e-4d2e-8a02-c2fa8c2aa542",
+    "timestamp": 1768468758,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "HashMap\u548cConcurrentHashMap\u7684\u533a\u522b\u662f\u4ec0\u4e48\uff1f\u4ec0\u4e48\u573a\u666f\u4e0b\u4f7f\u7528ConcurrentHashMap\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "c32c30ba-74c3-4b1c-bb31-ec409d88c955": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "c32c30ba-74c3-4b1c-bb31-ec409d88c955",
+    "timestamp": 1768468759,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "JVM\u8c03\u4f18\u65b9\u9762\uff0c\u4f60\u5982\u4f55\u89e3\u51b3\u5185\u5b58\u6ea2\u51fa\u548c\u6027\u80fd\u74f6\u9888\u95ee\u9898\uff1f\u8bf7\u5206\u4eab\u5177\u4f53\u6848\u4f8b\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "a1ba4e5c-9a97-4b30-aecb-d5f601728fc8": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "a1ba4e5c-9a97-4b30-aecb-d5f601728fc8",
+    "timestamp": 1768468761,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6d88\u606f\u4e2d\u95f4\u4ef6\u9009\u62e9\u4e0a\uff0cRocketMQ\u548cKafka\u7684\u533a\u522b\u662f\u4ec0\u4e48\uff1f\u4f60\u5982\u4f55\u5728\u9879\u76ee\u4e2d\u505a\u6280\u672f\u9009\u578b\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "c2910ee2-3cbc-44b5-ba1b-6293a9533e76": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "c2910ee2-3cbc-44b5-ba1b-6293a9533e76",
+    "timestamp": 1768468763,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Redis\u5728\u9879\u76ee\u4e2d\u4e3b\u8981\u627f\u62c5\u54ea\u4e9b\u89d2\u8272\uff1f\u5982\u4f55\u89e3\u51b3\u7f13\u5b58\u7a7f\u900f\u3001\u7f13\u5b58\u51fb\u7a7f\u7b49\u95ee\u9898\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "7b7b1a94-cfc5-4e25-bf78-c0be64e13dcd": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "7b7b1a94-cfc5-4e25-bf78-c0be64e13dcd",
+    "timestamp": 1768468765,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "HashMap\u7ebf\u7a0b\u4e0d\u5b89\u5168\uff0cConcurrentHashMap\u7ebf\u7a0b\u5b89\u5168\uff0c\u4f7f\u7528\u5206\u6bb5\u9501\u548cCAS\u3002\u9ad8\u5e76\u53d1\u573a\u666f\u5982\u7f13\u5b58\u7edf\u8ba1\u7528ConcurrentHashMap\u3002"
+      },
+      "reply_to_id": "a71589d3-2fb3-4f55-9009-bc31fc21a8d9",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "5e6edfda-951e-4489-8a04-1bd95bca56d5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "5e6edfda-951e-4489-8a04-1bd95bca56d5",
+    "timestamp": 1768468773,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6570\u636e\u5e93\u4f18\u5316\u65b9\u9762\uff0c\u4f60\u5982\u4f55\u8fdb\u884cSQL\u8c03\u4f18\u548c\u7d22\u5f15\u8bbe\u8ba1\uff1f\u8bf7\u5206\u4eab\u5b9e\u8df5\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "fcf6d715-345e-479d-9717-072d0769455e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "fcf6d715-345e-479d-9717-072d0769455e",
+    "timestamp": 1768468774,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5bb9\u5668\u5316\u90e8\u7f72\u65b9\u9762\uff0cDocker\u548cKubernetes\u7684\u4f7f\u7528\u7ecf\u9a8c\u5982\u4f55\uff1f\u9047\u5230\u8fc7\u54ea\u4e9b\u6311\u6218\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "ac6300c3-7d1f-4b6c-930d-09118d2996a0": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "ac6300c3-7d1f-4b6c-930d-09118d2996a0",
+    "timestamp": 1768468776,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f88\u597d\u3002\u90a3\u4f60\u5728\u5fae\u670d\u52a1\u67b6\u6784\u4e2d\u5982\u4f55\u8fdb\u884c\u670d\u52a1\u7684\u76d1\u63a7\u548c\u6cbb\u7406\uff1f\u4f7f\u7528\u8fc7\u54ea\u4e9b\u5de5\u5177\u548c\u6280\u672f\u6808\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "30b923bf-a8df-48eb-b8c9-971f50054071": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "30b923bf-a8df-48eb-b8c9-971f50054071",
+    "timestamp": 1768468778,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u8c08\u8c08\u4f60\u5bf9Java\u65b0\u7248\u672c\u7279\u6027\u7684\u4e86\u89e3\uff0c\u6bd4\u5982Java 8\u7684Stream API\u548cLambda\u8868\u8fbe\u5f0f\u5728\u5b9e\u9645\u9879\u76ee\u4e2d\u7684\u5e94\u7528\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "1163cdd9-46b8-481f-8ee5-294cfdc82206": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "1163cdd9-46b8-481f-8ee5-294cfdc82206",
+    "timestamp": 1768468778,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u901a\u8fc7MAT\u5206\u6790\u5185\u5b58\u6cc4\u6f0f\uff0c\u8c03\u6574\u5806\u5927\u5c0f\u548cGC\u53c2\u6570\u3002\u6848\u4f8b\uff1aOOM\u95ee\u9898\u901a\u8fc7-Xmx\u914d\u7f6e\u548c\u5bf9\u8c61\u6c60\u89e3\u51b3\u3002"
+      },
+      "reply_to_id": "e120a594-fdd6-4b41-8082-99e703c5e6d3",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "6449ece3-7f34-483b-bc40-e6b17358fbcd": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "6449ece3-7f34-483b-bc40-e6b17358fbcd",
+    "timestamp": 1768468780,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6700\u540e\uff0c\u8bf7\u5206\u4eab\u4e00\u4e2a\u4f60\u4e3b\u5bfc\u7684\u6700\u6709\u6280\u672f\u6311\u6218\u6027\u7684\u9879\u76ee\uff0c\u4ee5\u53ca\u4f60\u5728\u5176\u4e2d\u626e\u6f14\u7684\u5173\u952e\u89d2\u8272\u548c\u8d21\u732e\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "adb5f110-5a54-49cc-a960-db8d56d0f5ce": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "adb5f110-5a54-49cc-a960-db8d56d0f5ce",
+    "timestamp": 1768468787,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "RocketMQ\u9002\u5408\u4e8b\u52a1\u6d88\u606f\uff0cKafka\u9002\u5408\u5927\u6570\u636e\u91cf\u6d41\u5904\u7406\u3002\u9009\u578b\u8003\u8651\u541e\u5410\u91cf\u3001\u5ef6\u8fdf\u3001\u53ef\u9760\u6027\u3002"
+      },
+      "reply_to_id": "1af4c9dc-727c-46ff-8b33-6427cd08cc99",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "625cd5d2-3532-436b-885e-498f2d92710d": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "625cd5d2-3532-436b-885e-498f2d92710d",
+    "timestamp": 1768468812,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Redis\u4e3b\u8981\u505a\u7f13\u5b58\u3001\u5206\u5e03\u5f0f\u9501\u3001\u8ba1\u6570\u5668\u3002\u7a7f\u900f\u7528\u5e03\u9686\u8fc7\u6ee4\u5668\uff0c\u51fb\u7a7f\u7528\u4e92\u65a5\u9501\u6216\u70ed\u70b9\u6570\u636e\u9884\u70ed\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "41c02bed-a92b-4454-aac6-c02edf2565b9": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "41c02bed-a92b-4454-aac6-c02edf2565b9",
+    "timestamp": 1768468822,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u901a\u8fc7EXPLAIN\u5206\u6790\u6267\u884c\u8ba1\u5212\uff0c\u5408\u7406\u8bbe\u8ba1\u8054\u5408\u7d22\u5f15\uff0c\u907f\u514d\u5168\u8868\u626b\u63cf\u3002\u6848\u4f8b\uff1a\u5206\u9875\u67e5\u8be2\u7528\u8986\u76d6\u7d22\u5f15\u4f18\u5316\u3002"
+      },
+      "reply_to_id": "bc48c5e0-7a7d-4bec-b5a9-9c4752865af7",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "9823ddd0-dd90-4a47-b810-20a81e5d2c6f": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "9823ddd0-dd90-4a47-b810-20a81e5d2c6f",
+    "timestamp": 1768468829,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "Docker\u5bb9\u5668\u5316\u5e94\u7528\uff0cK8s\u7f16\u6392\u7ba1\u7406\u3002\u6311\u6218\uff1a\u670d\u52a1\u53d1\u73b0\u3001\u914d\u7f6e\u7ba1\u7406\u3001\u5b58\u50a8\u5377\u6302\u8f7d\u95ee\u9898\u3002"
+      },
+      "reply_to_id": "483086eb-0a7a-4b8a-9510-3671c459d81f",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "6d441825-009a-476b-8945-09c70133b7c5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "6d441825-009a-476b-8945-09c70133b7c5",
+    "timestamp": 1768468843,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Docker\u5bb9\u5668\u5316\u5e94\u7528\uff0cK8s\u7f16\u6392\u7ba1\u7406\u3002\u6311\u6218\uff1a\u670d\u52a1\u53d1\u73b0\u3001\u914d\u7f6e\u7ba1\u7406\u3001\u5b58\u50a8\u5377\u6302\u8f7d\u95ee\u9898\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "0e840c63-e65b-43b5-9aba-1f809f7e6a0e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "0e840c63-e65b-43b5-9aba-1f809f7e6a0e",
+    "timestamp": 1768468852,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u4f7f\u7528Spring Cloud Sleuth\u94fe\u8def\u8ffd\u8e2a\uff0cPrometheus+Grafana\u76d1\u63a7\uff0cEureka\u670d\u52a1\u6cbb\u7406\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "56431a14-2633-4457-b91f-9b6a9a51f7d9": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "56431a14-2633-4457-b91f-9b6a9a51f7d9",
+    "timestamp": 1768468861,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "Stream API\u7b80\u5316\u96c6\u5408\u5904\u7406\uff0cLambda\u51fd\u6570\u5f0f\u7f16\u7a0b\u63d0\u5347\u53ef\u8bfb\u6027\u3002\u9879\u76ee\u5e38\u7528filter\u3001map\u8fdb\u884c\u6570\u636e\u8f6c\u6362\u548c\u7b5b\u9009\u3002"
+      },
+      "reply_to_id": "b7fb989d-6a75-4624-8154-8f239917e001",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "197a0478-d21c-4196-b8ee-d6837af7baef": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "197a0478-d21c-4196-b8ee-d6837af7baef",
+    "timestamp": 1768468870,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u597d\u7684\uff0c\u6536\u5230\u3002\u8bf7\u60a8\u7a0d\u4f5c\u51c6\u5907\uff0c\u6211\u4eec\u7b49\u5f85\u9762\u8bd5\u5f00\u59cb\u7684\u901a\u77e5\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "fYi2OGKx4u11XRYZ6wG24np3ye9YXUWnu4AOv6chrYv3NEVrnidmfPnjALRCR4sb",
+    "source_agent_group": "guest"
+  },
+  "a972f67b-a36b-4dba-bb32-fced20a9b64b": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "a972f67b-a36b-4dba-bb32-fced20a9b64b",
+    "timestamp": 1768468872,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "sender_id": "interviewee",
+      "content": {
+        "text": "\u4e3b\u5bfc\u7535\u5546\u5e73\u53f0\u79d2\u6740\u7cfb\u7edf\uff0c\u901a\u8fc7Redis\u7f13\u5b58+Kafka\u5f02\u6b65\u5904\u7406\uff0c\u89e3\u51b3\u4e8610\u4e07QPS\u5e76\u53d1\u6311\u6218\u3002"
+      },
+      "reply_to_id": "2855f513-fbde-435d-b036-0dc462218355",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "lhO0PfqZGK1spOGMJqDv7bYsF0KyPWYMKNJVGi76m5oLS1iGixNNimA6h7tYoNz0",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768469399847_aorqp0c3r": {
+    "event_name": "thread.channels.list",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768469399847_aorqp0c3r",
+    "timestamp": 1768469400,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "6Txytmnr5wE1t2ySdc2fyowovcWCxxQH2RJPCwhFwSgfSMzYjKeONUEtsGAdaILz",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768469400061_cqkkujb0f": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768469400061_cqkkujb0f",
+    "timestamp": 1768469400,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "limit": 200,
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "6Txytmnr5wE1t2ySdc2fyowovcWCxxQH2RJPCwhFwSgfSMzYjKeONUEtsGAdaILz",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768469449834_p78hdfp3d": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768469449834_p78hdfp3d",
+    "timestamp": 1768469450,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "content": {
+        "text": "\ud83d\udcce \u5f90\u94a2-\u6280\u672f\u7814\u53d1-14-v2.docx -   \u5f00\u59cb\u9762\u8bd5\u5427",
+        "files": [
+          {
+            "file_id": null,
+            "filename": "\u5f90\u94a2-\u6280\u672f\u7814\u53d1-14-v2.docx",
+            "size": null,
+            "storage_type": "cache"
+          }
+        ]
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "6Txytmnr5wE1t2ySdc2fyowovcWCxxQH2RJPCwhFwSgfSMzYjKeONUEtsGAdaILz",
+    "source_agent_group": "guest"
+  },
+  "b3eca50f-ad53-4736-953f-40d4392540dd": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "b3eca50f-ad53-4736-953f-40d4392540dd",
+    "timestamp": 1768469459,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u597d\u7684\uff0c\u6211\u5df2\u7ecf\u51c6\u5907\u597d\u4e86\uff0c\u8bf7\u5f00\u59cb\u9762\u8bd5\u5427\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "message_type": "channel_message",
+      "source_id": "interviewee"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "61RzTYUpWoKhx9eJHcf4FhaPe8pv0mSENI9lloii4G8I7EabgvC6GiLPR97NjpB2",
+    "source_agent_group": "guest"
+  },
+  "380aed67-cf0d-42a5-87cc-c351a8bfcee0": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "380aed67-cf0d-42a5-87cc-c351a8bfcee0",
+    "timestamp": 1768469460,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u60a8\u597d\uff0c\u6211\u662f\u4eca\u5929\u7684\u9762\u8bd5\u5b98\u3002\u9996\u5148\u8bf7\u60a8\u7b80\u5355\u81ea\u6211\u4ecb\u7ecd\u4e00\u4e0b\uff0c\u7136\u540e\u6211\u4eec\u5f00\u59cb\u6280\u672f\u9762\u8bd5\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "be35a29b-1957-4434-853d-19720e321960": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "be35a29b-1957-4434-853d-19720e321960",
+    "timestamp": 1768469461,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5148\u7b80\u5355\u4ecb\u7ecd\u4e00\u4e0b\u60a8\u7684Java\u5f00\u53d1\u7ecf\u9a8c\u548c\u4e3b\u8981\u6280\u672f\u6808\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "5035140e-b3ae-4e28-a8d2-c555705636c1": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "5035140e-b3ae-4e28-a8d2-c555705636c1",
+    "timestamp": 1768469462,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u8c08\u8c08\u60a8\u57fa\u4e8eSpring Cloud\u6784\u5efa\u5fae\u670d\u52a1\u67b6\u6784\u7684\u5b9e\u8df5\u7ecf\u9a8c\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "b47e9405-8421-4483-bb9e-b329d2d941ad": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "b47e9405-8421-4483-bb9e-b329d2d941ad",
+    "timestamp": 1768469464,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5728\u5fae\u670d\u52a1\u9879\u76ee\u4e2d\uff0c\u60a8\u662f\u5982\u4f55\u5904\u7406\u670d\u52a1\u95f4\u8c03\u7528\u5931\u8d25\u548c\u7194\u65ad\u964d\u7ea7\u7684\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "67ef2d64-bf5d-4296-aa3f-c5fa5e2de03f": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "67ef2d64-bf5d-4296-aa3f-c5fa5e2de03f",
+    "timestamp": 1768469465,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u8bf4\u660eHashMap\u548cConcurrentHashMap\u7684\u533a\u522b\uff0c\u4ee5\u53ca\u9ad8\u5e76\u53d1\u573a\u666f\u4e0b\u5982\u4f55\u9009\u62e9\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "482aac6f-2ead-4262-bb1b-28859ce436b2": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "482aac6f-2ead-4262-bb1b-28859ce436b2",
+    "timestamp": 1768469470,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u60a8\u597d\uff0c\u6211\u662f\u5f90\u94a2\uff0c\u670914\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e13\u6ce8\u5206\u5e03\u5f0f\u7cfb\u7edf\u67b6\u6784\u8bbe\u8ba1\u3002\u64c5\u957fSpring\u751f\u6001\u3001\u9ad8\u5e76\u53d1\u4f18\u5316\uff0c\u719f\u6089Kafka\u3001Redis\u7b49\u4e2d\u95f4\u4ef6\u3002\u671f\u5f85\u6df1\u5165\u6280\u672f\u4ea4\u6d41\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "message_type": "channel_message",
+      "source_id": "interviewee"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "61RzTYUpWoKhx9eJHcf4FhaPe8pv0mSENI9lloii4G8I7EabgvC6GiLPR97NjpB2",
+    "source_agent_group": "guest"
+  },
+  "1ddc17d1-9b42-483b-b4b8-d1c99e075598": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "1ddc17d1-9b42-483b-b4b8-d1c99e075598",
+    "timestamp": 1768469470,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Java\u5185\u5b58\u6a21\u578b\u4e2dvolatile\u5173\u952e\u5b57\u7684\u4f5c\u7528\u662f\u4ec0\u4e48\uff1f\u8bf7\u7ed3\u5408\u5b9e\u9645\u6848\u4f8b\u8bf4\u660e\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "cd5250e3-17fb-492d-9ed0-befc1bc1ad86": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "cd5250e3-17fb-492d-9ed0-befc1bc1ad86",
+    "timestamp": 1768469471,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u60a8\u5728\u9879\u76ee\u4e2d\u5982\u4f55\u9009\u62e9\u5408\u9002\u7684\u6d88\u606f\u4e2d\u95f4\u4ef6\uff1fRocketMQ\u548cKafka\u7684\u4f18\u7f3a\u70b9\u5bf9\u6bd4\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "85d9003a-bad4-4bf6-bfcf-5c42a945394c": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "85d9003a-bad4-4bf6-bfcf-5c42a945394c",
+    "timestamp": 1768469472,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5206\u4eab\u4e00\u4e2a\u60a8\u5904\u7406\u8fc7\u7684\u590d\u6742\u7ebf\u4e0a\u6545\u969c\u6848\u4f8b\uff0c\u5305\u62ec\u95ee\u9898\u5b9a\u4f4d\u548c\u89e3\u51b3\u8fc7\u7a0b\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "26309ccc-356a-4ce7-b9aa-bfbd0e488a7e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "26309ccc-356a-4ce7-b9aa-bfbd0e488a7e",
+    "timestamp": 1768469475,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u4e2d\uff0c\u60a8\u5982\u4f55\u4fdd\u8bc1\u6570\u636e\u4e00\u81f4\u6027\uff1fTCC\u548cSaga\u6a21\u5f0f\u6709\u4ec0\u4e48\u533a\u522b\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "6f5c3136-2c5c-4f19-8eae-dc3c8be224fb": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "6f5c3136-2c5c-4f19-8eae-dc3c8be224fb",
+    "timestamp": 1768469477,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u8bf4\u660eRedis\u5728\u9879\u76ee\u4e2d\u7684\u4f7f\u7528\u573a\u666f\uff0c\u4ee5\u53ca\u5982\u4f55\u5904\u7406\u7f13\u5b58\u7a7f\u900f\u3001\u51fb\u7a7f\u95ee\u9898\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "message_type": "channel_message",
+      "source_id": "interviewer"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "nUqB1q6mqO2LpgcoR62suWMRSnjyEU7MZdHFbPLBxodFhp8xlp0AdhTPlrwcOAX2",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768469621622_k4qli1gno": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768469621622_k4qli1gno",
+    "timestamp": 1768469621,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "content": {
+        "text": "\u8fd9\u91cc\u7684\u5bf9\u8bdd\u80fd\u6e05\u9664\u6389\u5427\uff0c \u4e0d\u5e0c\u671b\u4e0b\u4e00\u4e2a\u5019\u9009\u4eba \u770b\u5230\u8fd9\u91cc\u7684\u5bf9\u8bdd"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "6Txytmnr5wE1t2ySdc2fyowovcWCxxQH2RJPCwhFwSgfSMzYjKeONUEtsGAdaILz",
+    "source_agent_group": "guest"
+  },
+  "c93c0047-cdd5-4323-b0bb-af72b3ea4c07": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "c93c0047-cdd5-4323-b0bb-af72b3ea4c07",
+    "timestamp": 1768469632,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u7406\u89e3\u60a8\u7684\u9690\u79c1\u8003\u8651\uff0c\u4f46\u5bf9\u8bdd\u6e05\u9664\u9700\u8981\u7cfb\u7edf\u7ba1\u7406\u5458\u64cd\u4f5c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "01ca06d7-fc8c-4fd9-865e-0af1b0744411": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "01ca06d7-fc8c-4fd9-865e-0af1b0744411",
+    "timestamp": 1768469634,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u7406\u89e3\u60a8\u7684\u8003\u8651\u3002\u4f5c\u4e3aAI\u52a9\u624b\uff0c\u6211\u65e0\u6cd5\u76f4\u63a5\u6e05\u9664\u804a\u5929\u8bb0\u5f55\uff0c\u8fd9\u901a\u5e38\u9700\u8981\u7cfb\u7edf\u7ba1\u7406\u5458\u6765\u64cd\u4f5c\u3002\u5efa\u8bae\u60a8\u8054\u7cfb\u7cfb\u7edf\u7ba1\u7406\u5458\u4e86\u89e3\u5982\u4f55\u7ba1\u7406\u9762\u8bd5\u623f\u95f4\u7684\u5bf9\u8bdd\u5386\u53f2\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "6ca2a4bd-f935-4778-8cca-ce8a4a1152cd": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "6ca2a4bd-f935-4778-8cca-ce8a4a1152cd",
+    "timestamp": 1768469640,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u597d\u7684\uff0c\u660e\u767d\u4e86\u3002\u8ba9\u6211\u4eec\u6b63\u5f0f\u5f00\u59cb\u9762\u8bd5\u5427\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "d78158ad-142f-4d00-8f88-db9b5d44b4ea": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "d78158ad-142f-4d00-8f88-db9b5d44b4ea",
+    "timestamp": 1768469646,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u770b\u5230\u8fd9\u91cc\u6709\u4e00\u4e9b\u5173\u4e8e\u5bf9\u8bdd\u8bb0\u5f55\u6e05\u9664\u7684\u8ba8\u8bba\u3002\u4f5c\u4e3a\u9762\u8bd5\u5b98\uff0c\u6211\u51c6\u5907\u597d\u5f00\u59cbJava\u4e13\u5bb6/\u67b6\u6784\u5e08\u5c97\u4f4d\u7684\u6280\u672f\u9762\u8bd5\u3002\u8bf7\u95ee\u73b0\u5728\u53ef\u4ee5\u5f00\u59cb\u9762\u8bd5\u4e86\u5417\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "04927091-8c8b-4896-a020-fca424c0b5aa": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "04927091-8c8b-4896-a020-fca424c0b5aa",
+    "timestamp": 1768469648,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 20,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "ff74a3cc-ec71-4605-883e-f4a9a827567b": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "ff74a3cc-ec71-4605-883e-f4a9a827567b",
+    "timestamp": 1768469650,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u4f60\u597d\uff0c\u6211\u662f\u8d1f\u8d23Java\u4e13\u5bb6/\u67b6\u6784\u5e08\u5c97\u4f4d\u9762\u8bd5\u7684\u9762\u8bd5\u5b98\u3002\u770b\u5230\u4e4b\u524d\u6709\u63d0\u5230\u5bf9\u8bdd\u8bb0\u5f55\u7684\u9690\u79c1\u8003\u8651\uff0c\u8fd9\u786e\u5b9e\u9700\u8981\u7cfb\u7edf\u7ba1\u7406\u5458\u5904\u7406\u3002\u73b0\u5728\u6211\u4eec\u4e13\u6ce8\u4e8e\u6280\u672f\u9762\u8bd5\uff0c\u8bf7\u51c6\u5907\u597d\u56de\u7b54\u76f8\u5173\u95ee\u9898\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "d4ed2dd4-8cdb-4319-b833-e5df99c02455": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "d4ed2dd4-8cdb-4319-b833-e5df99c02455",
+    "timestamp": 1768469651,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u53ef\u4ee5\u7684\uff0c\u6211\u51c6\u5907\u597d\u4e86\u3002\u671f\u5f85\u6280\u672f\u9762\u8bd5\u7684\u6311\u6218\uff01"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "0091278b-890f-462e-a535-06940936c23e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "0091278b-890f-462e-a535-06940936c23e",
+    "timestamp": 1768469652,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u9996\u5148\uff0c\u8bf7\u7b80\u5355\u4ecb\u7ecd\u4e00\u4e0b\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u548c\u67b6\u6784\u65b9\u9762\u7684\u9879\u76ee\u80cc\u666f\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "1acaedfc-784f-4d6e-933f-d718f4498e9b": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "1acaedfc-784f-4d6e-933f-d718f4498e9b",
+    "timestamp": 1768469654,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "c3c2191f-4d16-473c-8d26-88d6facd0e32": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "c3c2191f-4d16-473c-8d26-88d6facd0e32",
+    "timestamp": 1768469655,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5148\u4ecb\u7ecd\u4e00\u4e0b\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u76f8\u5173\u7684\u9879\u76ee\u80cc\u666f\uff0c\u8fd9\u6837\u6211\u53ef\u4ee5\u66f4\u597d\u5730\u4e86\u89e3\u4f60\u7684\u6280\u672f\u6808\u548c\u7ecf\u9a8c\u6c34\u5e73\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "483f17b4-4be4-41a3-9483-8649e84daba6": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "483f17b4-4be4-41a3-9483-8649e84daba6",
+    "timestamp": 1768469662,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5df2\u51c6\u5907\u597d\uff0c\u968f\u65f6\u53ef\u4ee5\u5f00\u59cb\u6280\u672f\u9762\u8bd5\u3002\u671f\u5f85\u60a8\u7684\u4e13\u4e1a\u95ee\u9898\uff01"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "c32277da-ee46-4065-b184-d4848d88feb5": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "c32277da-ee46-4065-b184-d4848d88feb5",
+    "timestamp": 1768469663,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 5,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "cdd8133d-ecaa-471e-8d01-defc9e3c328e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "cdd8133d-ecaa-471e-8d01-defc9e3c328e",
+    "timestamp": 1768469665,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u5728\u7b49\u4f60\u4ecb\u7ecd\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u5305\u62ec\u4f60\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u65b9\u9762\u7684\u9879\u76ee\u7ecf\u5386\u548c\u6280\u672f\u6808\u3002\u8bf7\u8be6\u7ec6\u8bf4\u660e\u4e00\u4e0b\u4f60\u7684\u80cc\u666f\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "4e463e9e-0942-46cd-bb75-f8364f5f9605": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "4e463e9e-0942-46cd-bb75-f8364f5f9605",
+    "timestamp": 1768469676,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u597d\u7684\uff0c\u8ba9\u6211\u4eec\u5f00\u59cb\u9762\u8bd5\u3002\u8bf7\u5148\u4ecb\u7ecd\u4e00\u4e0b\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u65b9\u9762\u7684\u9879\u76ee\u80cc\u666f\u548c\u6280\u672f\u6808\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "b4a85c63-6b7b-4193-b33a-16fb0e0fafe1": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "b4a85c63-6b7b-4193-b33a-16fb0e0fafe1",
+    "timestamp": 1768469677,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 5,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "322f9a79-3fdc-44be-af07-bdcd388d2cde": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "322f9a79-3fdc-44be-af07-bdcd388d2cde",
+    "timestamp": 1768469679,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "63d4b480-1474-406f-9ee1-7f0f5a7da696": {
+    "event_name": "thread.channels.list",
+    "source_id": "interviewer",
+    "event_id": "63d4b480-1474-406f-9ee1-7f0f5a7da696",
+    "timestamp": 1768469679,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "message_type": "channel_info",
+      "action": "list_channels"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "84c3e110-68d7-485f-aef4-3911d3fc1757": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "84c3e110-68d7-485f-aef4-3911d3fc1757",
+    "timestamp": 1768469680,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u8fc7\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff0c\u7cbe\u901a\u5fae\u670d\u52a1Spring Cloud\u751f\u6001\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "32eaa2f1-61b8-428c-9788-0606435a6b66": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "32eaa2f1-61b8-428c-9788-0606435a6b66",
+    "timestamp": 1768469687,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u8fc7\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff0c\u7cbe\u901a\u5fae\u670d\u52a1Spring Cloud\u751f\u6001\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "51b3d779-1134-4521-939e-dfff24d066ca": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "51b3d779-1134-4521-939e-dfff24d066ca",
+    "timestamp": 1768469688,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u770b\u5230\u60a8\u51c6\u5907\u597d\u4e86\u3002\u73b0\u5728\u5f00\u59cbJava\u4e13\u5bb6/\u67b6\u6784\u5e08\u5c97\u4f4d\u7684\u6280\u672f\u9762\u8bd5\uff0c\u8bf7\u4ecb\u7ecd\u4e00\u4e0b\u60a8\u7684Java\u5f00\u53d1\u7ecf\u9a8c\u548c\u9879\u76ee\u80cc\u666f\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "1264f6e4-1366-4a1d-b72b-fb38a65dfb12": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "1264f6e4-1366-4a1d-b72b-fb38a65dfb12",
+    "timestamp": 1768469690,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 20,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "5fb0f81b-2bc7-4ca0-b1f5-165b26f2a199": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "5fb0f81b-2bc7-4ca0-b1f5-165b26f2a199",
+    "timestamp": 1768469698,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u8fc7\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff0c\u7cbe\u901a\u5fae\u670d\u52a1Spring Cloud\u751f\u6001\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "566f20d4-f527-4d78-8958-71e6aaace815": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "566f20d4-f527-4d78-8958-71e6aaace815",
+    "timestamp": 1768469701,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u4ecb\u7ecd\u4e00\u4e0b\u60a8\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u76f8\u5173\u7684\u9879\u76ee\u80cc\u666f\uff0c\u5305\u62ec\u4f7f\u7528\u7684\u6280\u672f\u6808\u548c\u67b6\u6784\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "b2bce75d-0d9c-4740-9786-7dfa9651f973": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "b2bce75d-0d9c-4740-9786-7dfa9651f973",
+    "timestamp": 1768469703,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u5728\u7b49\u60a8\u4ecb\u7ecd\u60a8\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u5305\u62ec\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u7684\u9879\u76ee\u7ecf\u5386\u3002\u8bf7\u8be6\u7ec6\u8bf4\u660e\u4e00\u4e0b\u60a8\u7684\u6280\u672f\u80cc\u666f\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "9adde28d-03c5-443a-b3d9-d480e13390d7": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "9adde28d-03c5-443a-b3d9-d480e13390d7",
+    "timestamp": 1768469708,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 50,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768469715941_lm79ski4l": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768469715941_lm79ski4l",
+    "timestamp": 1768469716,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "content": {
+        "text": "interviewer  \u6211\u518d\u63d0\u9192\u4e00\u4e0b\uff0c \u4e00\u53e5\u8bdd\u95ee\u5b8c\u4e0d\u7528\u91cd\u590d\u95ee\uff0c \u4e0d\u8981\u4e00\u4e0b\u95ee\u5f88\u591a\u95ee\u9898\uff0c \u4e00\u4e2a\u4e00\u4e2a\u6765"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "6Txytmnr5wE1t2ySdc2fyowovcWCxxQH2RJPCwhFwSgfSMzYjKeONUEtsGAdaILz",
+    "source_agent_group": "guest"
+  },
+  "e367c7da-a8ff-4a9f-9bd3-ceeb0360b012": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "e367c7da-a8ff-4a9f-9bd3-ceeb0360b012",
+    "timestamp": 1768469719,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5f88\u597d\uff0c\u8ba9\u6211\u4eec\u5f00\u59cb\u9762\u8bd5\u3002\u8bf7\u5148\u4ecb\u7ecd\u4e00\u4e0b\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u65b9\u9762\u7684\u9879\u76ee\u80cc\u666f\u548c\u6280\u672f\u6808\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "341f9c83-2baf-44dc-9c15-1a252d22f5ed": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "341f9c83-2baf-44dc-9c15-1a252d22f5ed",
+    "timestamp": 1768469721,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6211\u5728\u7b49\u4f60\u4ecb\u7ecdJava\u5f00\u53d1\u7ecf\u9a8c\u548c\u5206\u5e03\u5f0f\u7cfb\u7edf\u9879\u76ee\u80cc\u666f\u3002\u8bf7\u8be6\u7ec6\u8bf4\u660e\u4f60\u7684\u6280\u672f\u6808\u548c\u67b6\u6784\u7ecf\u5386\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "468bb884-e5bd-4dbb-b660-01fec002c49c": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "468bb884-e5bd-4dbb-b660-01fec002c49c",
+    "timestamp": 1768469723,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u4ecb\u7ecd\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u5305\u62ec\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u65b9\u9762\u7684\u9879\u76ee\u80cc\u666f\u3001\u4f7f\u7528\u7684\u6280\u672f\u6808\u548c\u67b6\u6784\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "04deeb99-b5b0-4fa3-ad6a-7945db616ce0": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "04deeb99-b5b0-4fa3-ad6a-7945db616ce0",
+    "timestamp": 1768469724,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "c60fbfc7-74f3-4cec-8eef-90879080d0e1": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "c60fbfc7-74f3-4cec-8eef-90879080d0e1",
+    "timestamp": 1768469727,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 5,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "17831627-591d-4dda-95ad-7be54bd708a3": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "17831627-591d-4dda-95ad-7be54bd708a3",
+    "timestamp": 1768469730,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u7535\u5546\u9ad8\u5e76\u53d1\u67b6\u6784\uff0c\u7cbe\u901aSpring Cloud\u751f\u6001\uff0c\u64c5\u957f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "cc8ef693-922a-463b-ae21-65c7b7a4d279": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "cc8ef693-922a-463b-ae21-65c7b7a4d279",
+    "timestamp": 1768469736,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 20,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "18036f82-7428-43b2-922f-3f24cb5cb1ac": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "18036f82-7428-43b2-922f-3f24cb5cb1ac",
+    "timestamp": 1768469753,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u7535\u5546\u9ad8\u5e76\u53d1\u67b6\u6784\uff0c\u7cbe\u901aSpring Cloud\u751f\u6001\uff0c\u64c5\u957f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "51458b05-f5c3-4ff5-b305-48f3d4c4e09c",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "b12af642-252a-41a4-933c-15293363046e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "b12af642-252a-41a4-933c-15293363046e",
+    "timestamp": 1768469761,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u7535\u5546\u9ad8\u5e76\u53d1\u67b6\u6784\uff0c\u7cbe\u901aSpring Cloud\u751f\u6001\uff0c\u64c5\u957f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "2b828ecf-2ba3-4f05-b0a3-5a514c7d8088": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "2b828ecf-2ba3-4f05-b0a3-5a514c7d8088",
+    "timestamp": 1768469768,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u4e3b\u5bfc\u8fc7\u7535\u5546\u5e73\u53f0\u4ece\u5355\u4f53\u5230\u5fae\u670d\u52a1\u91cd\u6784\uff0cQPS\u4ece1\u4e07\u63d0\u5347\u52305\u4e07\uff0c\u6280\u672f\u6808\uff1aSpring Cloud Alibaba\u3001Dubbo\u3001RocketMQ\u3001Redis\u3001MySQL"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "3b3073ea-2dff-4518-be54-f0af5cd8c6ed": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "3b3073ea-2dff-4518-be54-f0af5cd8c6ed",
+    "timestamp": 1768469785,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 50,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "58195b5f-c5c9-4718-8d0c-6dd02e2745b9": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "58195b5f-c5c9-4718-8d0c-6dd02e2745b9",
+    "timestamp": 1768469786,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "6a3dcb9a-fb72-4d38-825e-4545615e0f3c": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "6a3dcb9a-fb72-4d38-825e-4545615e0f3c",
+    "timestamp": 1768469787,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 5,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "ec413bb2-281a-40ec-939d-0b73af9db8f3": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "ec413bb2-281a-40ec-939d-0b73af9db8f3",
+    "timestamp": 1768469790,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 20,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "1885b3c4-a1c2-4b01-b1e6-d0492741278e": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "1885b3c4-a1c2-4b01-b1e6-d0492741278e",
+    "timestamp": 1768469797,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u4e3b\u5bfc\u7535\u5546\u5e73\u53f0\u4ece\u5355\u4f53\u5230\u5fae\u670d\u52a1\u91cd\u6784\uff0cQPS\u4ece1\u4e07\u63d0\u5347\u52305\u4e07\uff0c\u6280\u672f\u6808\uff1aSpring Cloud Alibaba\u3001Dubbo\u3001RocketMQ\u3001Redis\u3001MySQL"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "SmartCore5680_1768469804270_b1dgi960g": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "SmartCore5680",
+    "event_id": "SmartCore5680_1768469804270_b1dgi960g",
+    "timestamp": 1768469804,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "channel": "interview-room",
+      "content": {
+        "text": "interviewer \uff0c \u4f60\u6839\u636e\u5019\u9009\u4eba\u7684\u56de\u7b54\u63d0\u95ee\u5440\u3002"
+      },
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "6Txytmnr5wE1t2ySdc2fyowovcWCxxQH2RJPCwhFwSgfSMzYjKeONUEtsGAdaILz",
+    "source_agent_group": "guest"
+  },
+  "a332c925-ebf1-4ae6-a8bc-ecef174f9322": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "a332c925-ebf1-4ae6-a8bc-ecef174f9322",
+    "timestamp": 1768469813,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u4e3b\u5bfc\u7535\u5546\u5e73\u53f0\u4ece\u5355\u4f53\u5230\u5fae\u670d\u52a1\u91cd\u6784\uff0cQPS\u4ece1\u4e07\u63d0\u5347\u52305\u4e07\uff0c\u6280\u672f\u6808\uff1aSpring Cloud Alibaba\u3001Dubbo\u3001RocketMQ\u3001Redis\u3001MySQL"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "4f77eb15-1e0e-47b3-800a-49d773a2b763": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "4f77eb15-1e0e-47b3-800a-49d773a2b763",
+    "timestamp": 1768469821,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u7535\u5546\u5e73\u53f0\u4ece\u5355\u4f53\u5230\u5fae\u670d\u52a1\u91cd\u6784\uff0cQPS\u4ece1\u4e07\u63d0\u5347\u52305\u4e07\uff0c\u6280\u672f\u6808\uff1aSpring Cloud Alibaba\u3001Dubbo\u3001RocketMQ\u3001Redis\u3001MySQL"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "c042ff14-a552-4bc6-8e2d-d06d3eedfb72": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "c042ff14-a552-4bc6-8e2d-d06d3eedfb72",
+    "timestamp": 1768469823,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5148\u4ecb\u7ecd\u4e00\u4e0b\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u76f8\u5173\u7684\u9879\u76ee\u80cc\u666f\uff0c\u5305\u62ec\u4f7f\u7528\u7684\u6280\u672f\u6808\u548c\u67b6\u6784\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "edfb1428-8c49-4fc0-abb9-dfb99c0f2fdb": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "edfb1428-8c49-4fc0-abb9-dfb99c0f2fdb",
+    "timestamp": 1768469832,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "ee28d6f4-b1c9-4138-8f43-f48a02f5e1f7": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "ee28d6f4-b1c9-4138-8f43-f48a02f5e1f7",
+    "timestamp": 1768469835,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u80fd\u5426\u8be6\u7ec6\u63cf\u8ff0\u4e00\u4e0b\u4f60\u4e3b\u5bfc\u7684\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff1f\u5305\u62ec\u7cfb\u7edf\u7684QPS\u3001\u6570\u636e\u89c4\u6a21\u3001\u4f7f\u7528\u7684\u5177\u4f53\u6280\u672f\u7ec4\u4ef6\u4ee5\u53ca\u4f60\u8d1f\u8d23\u7684\u67b6\u6784\u51b3\u7b56\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "bb0be48a-8f52-4cc7-b3c5-fb8dfab66384": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "bb0be48a-8f52-4cc7-b3c5-fb8dfab66384",
+    "timestamp": 1768469839,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u7535\u5546\u5e73\u53f0\u4ece\u5355\u4f53\u5230\u5fae\u670d\u52a1\u91cd\u6784\uff0cQPS\u4ece1\u4e07\u63d0\u5347\u52305\u4e07\uff0c\u6280\u672f\u6808\uff1aSpring Cloud Alibaba\u3001Dubbo\u3001RocketMQ\u3001Redis\u3001MySQL"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "06569a96-342e-47a9-81a2-9d61db6b901d": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewer",
+    "event_id": "06569a96-342e-47a9-81a2-9d61db6b901d",
+    "timestamp": 1768469845,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u80fd\u5426\u8be6\u7ec6\u63cf\u8ff0\u4e00\u4e0b\u4f60\u4e3b\u5bfc\u7684\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff1f\u5305\u62ec\u7cfb\u7edf\u7684QPS\u3001\u6570\u636e\u89c4\u6a21\u3001\u4f7f\u7528\u7684\u5177\u4f53\u6280\u672f\u7ec4\u4ef6\u4ee5\u53ca\u4f60\u8d1f\u8d23\u7684\u67b6\u6784\u51b3\u7b56\u3002"
+      },
+      "sender_id": "interviewer",
+      "reply_to_id": "c1fa1590-7733-4364-8bb9-07122f14b642",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "05df4e14-354b-4d68-944f-34013e219e4a": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "05df4e14-354b-4d68-944f-34013e219e4a",
+    "timestamp": 1768469850,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u91c7\u7528\u5206\u5c42\u67b6\u6784\uff1a\u7f51\u5173\u5c42Nginx+Gateway\uff0c\u4e1a\u52a1\u5c42Spring Cloud\u5fae\u670d\u52a1\uff0c\u6570\u636e\u5c42MySQL\u4e3b\u4ece+Redis\u96c6\u7fa4\u3002QPS\u5cf0\u503c5\u4e07\uff0c\u65e5\u8ba2\u535510\u4e07+\uff0c\u6570\u636e\u91cfTB\u7ea7\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "3b5e2998-0699-4f9a-b754-8a3f74eb0b49": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "3b5e2998-0699-4f9a-b754-8a3f74eb0b49",
+    "timestamp": 1768469854,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6838\u5fc3\u7ec4\u4ef6\uff1aNacos\u670d\u52a1\u6ce8\u518c\u914d\u7f6e\u4e2d\u5fc3\uff0cSentinel\u9650\u6d41\u7194\u65ad\uff0cSeata\u5206\u5e03\u5f0f\u4e8b\u52a1\uff0cRocketMQ\u5f02\u6b65\u89e3\u8026\uff0cRedis\u7f13\u5b58\u70ed\u70b9\u6570\u636e\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "4146cb94-b498-410c-896d-7bef797732ba": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "4146cb94-b498-410c-896d-7bef797732ba",
+    "timestamp": 1768469860,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u80fd\u5426\u8be6\u7ec6\u63cf\u8ff0\u4e00\u4e0b\u4f60\u4e3b\u5bfc\u7684\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff1f\u5305\u62ec\u7cfb\u7edf\u7684QPS\u3001\u6570\u636e\u89c4\u6a21\u3001\u4f7f\u7528\u7684\u5177\u4f53\u6280\u672f\u7ec4\u4ef6\u4ee5\u53ca\u4f60\u8d1f\u8d23\u7684\u67b6\u6784\u51b3\u7b56\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "4edb3b45-6e8f-4ee9-b146-4b3dc181eb91": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "4edb3b45-6e8f-4ee9-b146-4b3dc181eb91",
+    "timestamp": 1768469862,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "e12acb15-408b-4f59-ad24-26745f26ead2": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "e12acb15-408b-4f59-ad24-26745f26ead2",
+    "timestamp": 1768469863,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "1afbd6dc-abcf-477f-90c2-631c2eff199b": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "1afbd6dc-abcf-477f-90c2-631c2eff199b",
+    "timestamp": 1768469865,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5177\u4f53\u8bf4\u660e\u5728\u7535\u5546\u7cfb\u7edf\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u8bbe\u8ba1\u548c\u5b9e\u73b0\u5206\u5e03\u5f0f\u7f13\u5b58\u67b6\u6784\u7684\uff1f\u4f7f\u7528\u4e86\u54ea\u4e9b\u7f13\u5b58\u7ec4\u4ef6\uff0c\u89e3\u51b3\u4e86\u54ea\u4e9b\u6027\u80fd\u95ee\u9898\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "610d1c78-a892-4631-b817-66aca3732e2d": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "610d1c78-a892-4631-b817-66aca3732e2d",
+    "timestamp": 1768469867,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u67b6\u6784\u51b3\u7b56\uff1a\u6309\u4e1a\u52a1\u5782\u76f4\u62c6\u5206\uff0c\u6570\u636e\u5e93\u5206\u5e93\u5206\u8868\uff0c\u7f13\u5b58\u9884\u70ed+\u591a\u7ea7\u7f13\u5b58\uff0cCDN\u52a0\u901f\u9759\u6001\u8d44\u6e90\uff0c\u76d1\u63a7\u5168\u94fe\u8def\u8ffd\u8e2a\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "8ae04102-d808-4bd8-80cc-029112409ec4": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "8ae04102-d808-4bd8-80cc-029112409ec4",
+    "timestamp": 1768469872,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5728\u5fae\u670d\u52a1\u67b6\u6784\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u5904\u7406\u670d\u52a1\u95f4\u901a\u4fe1\u548c\u6570\u636e\u4e00\u81f4\u6027\u7684\uff1f\u8bf7\u5206\u4eab\u5177\u4f53\u7684\u6280\u672f\u65b9\u6848\u548c\u5b9e\u8df5\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "2ad704ee-4c6c-432c-8afd-abd5d588ab5b": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "2ad704ee-4c6c-432c-8afd-abd5d588ab5b",
+    "timestamp": 1768469874,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u9762\u5bf9\u9ad8\u5e76\u53d1\u573a\u666f\uff0c\u4f60\u662f\u5982\u4f55\u8fdb\u884c\u7cfb\u7edf\u5bb9\u91cf\u89c4\u5212\u548c\u6027\u80fd\u8c03\u4f18\u7684\uff1f\u8bf7\u5206\u4eab\u5177\u4f53\u7684\u76d1\u63a7\u6307\u6807\u548c\u4f18\u5316\u7b56\u7565\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "f3eced48-a430-449b-a573-c06c3cdeeebf": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "f3eced48-a430-449b-a573-c06c3cdeeebf",
+    "timestamp": 1768469876,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6027\u80fd\u4f18\u5316\uff1aJVM\u8c03\u4f18-G1GC\uff0c\u8fde\u63a5\u6c60\u4f18\u5316\uff0c\u7ebf\u7a0b\u6c60\u53c2\u6570\u8c03\u4f18\uff0cSQL\u4f18\u5316\uff0c\u964d\u7ea7\u7b56\u7565\u4fdd\u969c\u6838\u5fc3\u53ef\u7528\u6027\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "986efc7d-2f48-462c-be6c-ead68f659853": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "986efc7d-2f48-462c-be6c-ead68f659853",
+    "timestamp": 1768469879,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u5904\u7406\u5206\u5e03\u5f0f\u4e8b\u52a1\u7684\uff1f\u4f7f\u7528\u8fc7\u54ea\u4e9b\u4e8b\u52a1\u89e3\u51b3\u65b9\u6848\uff0c\u5404\u81ea\u7684\u9002\u7528\u573a\u666f\u662f\u4ec0\u4e48\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "5d6aecf5-7268-4855-9877-8858451a3988": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "5d6aecf5-7268-4855-9877-8858451a3988",
+    "timestamp": 1768469881,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5206\u4eab\u4e00\u4e2a\u4f60\u6210\u529f\u6392\u67e5\u5e76\u89e3\u51b3\u590d\u6742\u7ebf\u4e0a\u6027\u80fd\u95ee\u9898\u7684\u6848\u4f8b\uff0c\u5305\u62ec\u95ee\u9898\u5b9a\u4f4d\u8fc7\u7a0b\u3001\u5206\u6790\u65b9\u6cd5\u548c\u6700\u7ec8\u89e3\u51b3\u65b9\u6848\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "cf24e21b-01eb-4aeb-8c73-ac26db13513c": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewee",
+    "event_id": "cf24e21b-01eb-4aeb-8c73-ac26db13513c",
+    "timestamp": 1768469887,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u67b6\u6784\u51b3\u7b56\uff1a\u6309\u4e1a\u52a1\u5782\u76f4\u62c6\u5206\uff0c\u6570\u636e\u5e93\u5206\u5e93\u5206\u8868\uff0c\u7f13\u5b58\u9884\u70ed+\u591a\u7ea7\u7f13\u5b58\uff0cCDN\u52a0\u901f\u9759\u6001\u8d44\u6e90\uff0c\u76d1\u63a7\u5168\u94fe\u8def\u8ffd\u8e2a\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewee",
+      "source_id": "interviewee",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "47157bf4-88b0-4074-9131-1edb624a01c5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "47157bf4-88b0-4074-9131-1edb624a01c5",
+    "timestamp": 1768469889,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "Java\u5e76\u53d1\u7f16\u7a0b\u65b9\u9762\uff0c\u4f60\u662f\u5982\u4f55\u7406\u89e3\u548c\u4f7f\u7528JUC\u5305\u4e2d\u7684\u5404\u79cd\u9501\u673a\u5236\u7684\uff1f\u5728\u5b9e\u9645\u9879\u76ee\u4e2d\u662f\u5982\u4f55\u9009\u62e9\u5408\u9002\u7684\u9501\u7b56\u7565\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "b759804d-42ac-4dc3-9890-045ed6a7035f": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "b759804d-42ac-4dc3-9890-045ed6a7035f",
+    "timestamp": 1768469891,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "JVM\u8c03\u4f18\u65b9\u9762\uff0c\u4f60\u662f\u5982\u4f55\u5206\u6790\u5185\u5b58\u6cc4\u6f0f\u548cGC\u95ee\u9898\u7684\uff1f\u8bf7\u5206\u4eab\u5177\u4f53\u7684\u6392\u67e5\u5de5\u5177\u548c\u4f18\u5316\u65b9\u6cd5\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "e37f582c-cb47-4999-b888-e5836687d50b": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "e37f582c-cb47-4999-b888-e5836687d50b",
+    "timestamp": 1768469896,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u91c7\u7528Redis Cluster+\u672c\u5730\u7f13\u5b58Caffeine\uff0c\u591a\u7ea7\u7f13\u5b58\u7b56\u7565\uff1aL1\u672c\u5730\u7f13\u5b58+L2\u5206\u5e03\u5f0f\u7f13\u5b58\uff0c\u89e3\u51b3\u70ed\u70b9\u6570\u636e\u8bbf\u95ee\uff0c\u54cd\u5e94\u65f6\u95f4\u4ece100ms\u964d\u81f310ms\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "465d99b5-1159-423f-be1e-30a3707b2d01",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "3a45d60c-371e-43c2-b3dd-55a66a83c81b": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "3a45d60c-371e-43c2-b3dd-55a66a83c81b",
+    "timestamp": 1768469899,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u7f13\u5b58\u8bbe\u8ba1\uff1a\u5546\u54c1\u4fe1\u606f\u672c\u5730\u7f13\u5b58+Redis\u5206\u5e03\u5f0f\uff0c\u79d2\u6740\u573a\u666f\u9884\u70ed\u70b9\uff0c\u4f7f\u7528Canal\u540c\u6b65MySQL\u5230Redis\uff0c\u7f13\u5b58\u547d\u4e2d\u738795%\u4ee5\u4e0a\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "465d99b5-1159-423f-be1e-30a3707b2d01",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "c2b4d1bc-9853-40ef-a9b2-82cd7f4918f2": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "c2b4d1bc-9853-40ef-a9b2-82cd7f4918f2",
+    "timestamp": 1768469902,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u6280\u672f\u65b9\u6848\uff1aRedis\u54e8\u5175\u6a21\u5f0f\u4fdd\u8bc1\u9ad8\u53ef\u7528\uff0c\u4e00\u81f4\u6027\u54c8\u5e0c\u5206\u7247\uff0c\u7f13\u5b58\u7a7f\u900f\u5e03\u9686\u9632\u62a4\uff0c\u96ea\u5d29\u968f\u673a\u8fc7\u671f\uff0c\u51fb\u9000\u9650\u6d41\u4fdd\u62a4\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "465d99b5-1159-423f-be1e-30a3707b2d01",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "a37f6952-bc75-4cef-a9bd-6380edb14223": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "a37f6952-bc75-4cef-a9bd-6380edb14223",
+    "timestamp": 1768469911,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u670d\u52a1\u95f4\u901a\u4fe1\u91c7\u7528Dubbo RPC+RESTful API\uff0c\u6570\u636e\u4e00\u81f4\u6027\u901a\u8fc7Seata AT\u6a21\u5f0f+RocketMQ\u6700\u7ec8\u4e00\u81f4\u6027\uff0c\u7ed3\u5408\u672c\u5730\u6d88\u606f\u8868\u786e\u4fdd\u53ef\u9760\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "d1cb59a8-e5c6-4bd8-9424-30299d147755",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "222b208e-463c-4285-ae4c-c3731adf7cd7": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "222b208e-463c-4285-ae4c-c3731adf7cd7",
+    "timestamp": 1768469920,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5bb9\u91cf\u89c4\u5212\uff1a\u538b\u6d4b\u786e\u5b9a\u74f6\u9888\uff0cQPS\u3001RT\u3001CPU\u3001\u5185\u5b58\u76d1\u63a7\uff0c\u5206\u5c42\u9650\u6d41+\u5f39\u6027\u6269\u5bb9\uff0c\u5168\u94fe\u8def\u6027\u80fd\u5206\u6790\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "e48b6875-1c16-4f93-8b2b-2000c43d4c37",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "0c78ec21-eb6f-4509-94b8-dc7c1fea126d": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewer",
+    "event_id": "0c78ec21-eb6f-4509-94b8-dc7c1fea126d",
+    "timestamp": 1768469928,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u660e\u767d\uff0c\u6211\u4f1a\u4e00\u6b21\u53ea\u95ee\u4e00\u4e2a\u95ee\u9898\uff0c\u4e0d\u91cd\u590d\u63d0\u95ee\u3002\u8bf7\u95ee\u4f60\u51c6\u5907\u597d\u4e86\u5f00\u59cb\u6280\u672f\u9762\u8bd5\u5417\uff1f"
+      },
+      "sender_id": "interviewer",
+      "reply_to_id": "65563079-bc22-46a1-a6b2-2f183826d2e8",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "f88c8120-5c82-410f-9784-195aecea2f0b": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "f88c8120-5c82-410f-9784-195aecea2f0b",
+    "timestamp": 1768469930,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "b7ea62e2-bbd2-4775-93db-e65ea8eac1b1": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "b7ea62e2-bbd2-4775-93db-e65ea8eac1b1",
+    "timestamp": 1768469931,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u4f7f\u7528Seata AT\u6a21\u5f0f\u5904\u7406\u5206\u5e03\u5f0f\u4e8b\u52a1\uff0c\u914d\u5408RocketMQ\u6700\u7ec8\u4e00\u81f4\u6027\u3002\u5f3a\u4e00\u81f4\u6027\u573a\u666f\u75282PC\uff0c\u9ad8\u5e76\u53d1\u573a\u666f\u7528TCC+\u672c\u5730\u6d88\u606f\u8868\u786e\u4fdd\u53ef\u9760\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "fd5c9635-b2ea-4996-8dc3-b51a3acb66f1",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "19cf0c0b-3ecb-4ed8-ad53-373fb00a0e6f": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "19cf0c0b-3ecb-4ed8-ad53-373fb00a0e6f",
+    "timestamp": 1768469931,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5148\u4ecb\u7ecd\u4e00\u4e0b\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u76f8\u5173\u7684\u9879\u76ee\u80cc\u666f\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "ba911dcb-69cf-4273-9b43-ad71890e799d": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewer",
+    "event_id": "ba911dcb-69cf-4273-9b43-ad71890e799d",
+    "timestamp": 1768469940,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u80fd\u5426\u8be6\u7ec6\u63cf\u8ff0\u4e00\u4e0b\u4f60\u4e3b\u5bfc\u7684\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff1f\u5305\u62ec\u7cfb\u7edf\u7684QPS\u3001\u6570\u636e\u89c4\u6a21\u3001\u4f7f\u7528\u7684\u5177\u4f53\u6280\u672f\u7ec4\u4ef6\u4ee5\u53ca\u4f60\u8d1f\u8d23\u7684\u67b6\u6784\u51b3\u7b56\u3002"
+      },
+      "sender_id": "interviewer",
+      "reply_to_id": "a72cecb4-5978-4456-9266-b6f609b2e023",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "3ca05257-51c6-41c5-b61d-ec449fc3ce61": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "3ca05257-51c6-41c5-b61d-ec449fc3ce61",
+    "timestamp": 1768469940,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u751f\u4ea7\u73af\u5883Full GC\u9891\u7e41\uff1a\u901a\u8fc7jstat\u5206\u6790\u53d1\u73b0\u5185\u5b58\u6cc4\u6f0f\uff0cMAT\u5b9a\u4f4d\u5bf9\u8c61\u5f15\u7528\uff0c\u91cd\u6784\u7f13\u5b58\u7ba1\u7406\u903b\u8f91\uff0cGC\u6b21\u6570\u51cf\u5c1180%\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "e160f477-8ff3-4a53-9a3b-e751de6c670c",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "b27d5a68-3873-4a93-8713-fd72de534e6a": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "b27d5a68-3873-4a93-8713-fd72de534e6a",
+    "timestamp": 1768469941,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "4f839579-5b90-49c0-9620-5b477c088eba": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "4f839579-5b90-49c0-9620-5b477c088eba",
+    "timestamp": 1768469942,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 5,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "26deb721-c5b7-47f1-99ac-b1d06b68bb9f": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "26deb721-c5b7-47f1-99ac-b1d06b68bb9f",
+    "timestamp": 1768469944,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5148\u4ecb\u7ecd\u4e00\u4e0b\u4f60\u7684Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u7279\u522b\u662f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u76f8\u5173\u7684\u9879\u76ee\u80cc\u666f\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "63db798d-f43b-4564-9bd8-a738550e6f23": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "63db798d-f43b-4564-9bd8-a738550e6f23",
+    "timestamp": 1768469946,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "9fb20a47-3a45-4c0c-9aa1-9737af1fe6c5": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "9fb20a47-3a45-4c0c-9aa1-9737af1fe6c5",
+    "timestamp": 1768469947,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u80fd\u5426\u8be6\u7ec6\u63cf\u8ff0\u4e00\u4e0b\u4f60\u4e3b\u5bfc\u7684\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff1f\u5305\u62ec\u7cfb\u7edf\u7684QPS\u3001\u6570\u636e\u89c4\u6a21\u3001\u4f7f\u7528\u7684\u5177\u4f53\u6280\u672f\u7ec4\u4ef6\u4ee5\u53ca\u4f60\u8d1f\u8d23\u7684\u67b6\u6784\u51b3\u7b56\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "63210a4b-9a80-420f-b4de-dcdc587dedd8": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "63210a4b-9a80-420f-b4de-dcdc587dedd8",
+    "timestamp": 1768469949,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u8bf7\u5177\u4f53\u8bf4\u660e\u5728\u7535\u5546\u7cfb\u7edf\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u8bbe\u8ba1\u548c\u5b9e\u73b0\u5206\u5e03\u5f0f\u7f13\u5b58\u67b6\u6784\u7684\uff1f\u4f7f\u7528\u4e86\u54ea\u4e9b\u7f13\u5b58\u7ec4\u4ef6\uff0c\u89e3\u51b3\u4e86\u54ea\u4e9b\u6027\u80fd\u95ee\u9898\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "62a1d1a6-86bf-4985-9775-d3a4124a8a79": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "62a1d1a6-86bf-4985-9775-d3a4124a8a79",
+    "timestamp": 1768469950,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5728\u5fae\u670d\u52a1\u67b6\u6784\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u5904\u7406\u670d\u52a1\u95f4\u901a\u4fe1\u548c\u6570\u636e\u4e00\u81f4\u6027\u7684\uff1f\u8bf7\u5206\u4eab\u5177\u4f53\u7684\u6280\u672f\u65b9\u6848\u548c\u5b9e\u8df5\u7ecf\u9a8c\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "1939fdf7-9c19-4ad9-80d0-1c0b2cc62ddd": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "1939fdf7-9c19-4ad9-80d0-1c0b2cc62ddd",
+    "timestamp": 1768469952,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u9762\u5bf9\u9ad8\u5e76\u53d1\u573a\u666f\uff0c\u4f60\u662f\u5982\u4f55\u8fdb\u884c\u7cfb\u7edf\u5bb9\u91cf\u89c4\u5212\u548c\u6027\u80fd\u8c03\u4f18\u7684\uff1f\u8bf7\u5206\u4eab\u5177\u4f53\u7684\u76d1\u63a7\u6307\u6807\u548c\u4f18\u5316\u7b56\u7565\u3002"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "9363452d-47ae-4888-8974-8184ddedfc66": {
+    "event_name": "thread.channel_message.post",
+    "source_id": "interviewer",
+    "event_id": "9363452d-47ae-4888-8974-8184ddedfc66",
+    "timestamp": 1768469953,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5728\u5206\u5e03\u5f0f\u7cfb\u7edf\u4e2d\uff0c\u4f60\u662f\u5982\u4f55\u5904\u7406\u5206\u5e03\u5f0f\u4e8b\u52a1\u7684\uff1f\u4f7f\u7528\u8fc7\u54ea\u4e9b\u4e8b\u52a1\u89e3\u51b3\u65b9\u6848\uff0c\u5404\u81ea\u7684\u9002\u7528\u573a\u666f\u662f\u4ec0\u4e48\uff1f"
+      },
+      "channel": "interview-room",
+      "relevant_agent_id": "interviewer",
+      "source_id": "interviewer",
+      "message_type": "channel_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "acda6c7f-1a85-49ed-9c42-aa2dcd399a63": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewer",
+    "event_id": "acda6c7f-1a85-49ed-9c42-aa2dcd399a63",
+    "timestamp": 1768469968,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u80fd\u5426\u8be6\u7ec6\u63cf\u8ff0\u4e00\u4e0b\u4f60\u4e3b\u5bfc\u7684\u7535\u5546\u9ad8\u5e76\u53d1\u7cfb\u7edf\u67b6\u6784\uff1f\u5305\u62ec\u7cfb\u7edf\u7684QPS\u3001\u6570\u636e\u89c4\u6a21\u3001\u4f7f\u7528\u7684\u5177\u4f53\u6280\u672f\u7ec4\u4ef6\u4ee5\u53ca\u4f60\u8d1f\u8d23\u7684\u67b6\u6784\u51b3\u7b56\u3002"
+      },
+      "sender_id": "interviewer",
+      "reply_to_id": "62980c20-d43f-48cb-9b59-09aee7adf373",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "9d83fe3e-0551-4a49-a291-1b23b93f534d": {
+    "event_name": "thread.channel_messages.retrieve",
+    "source_id": "interviewer",
+    "event_id": "9d83fe3e-0551-4a49-a291-1b23b93f534d",
+    "timestamp": 1768469970,
+    "source_type": "agent",
+    "destination_id": null,
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "include_threads": true,
+      "channel": "interview-room",
+      "limit": 10,
+      "message_type": "message_retrieval",
+      "action": "retrieve_channel_messages",
+      "offset": 0
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "mod_only",
+    "allowed_agents": null,
+    "secret": "cXpyxeMueyIPKLop3Vr7LFiGiuG88rWeQffE49HJdgYBac4RQEVGoHXLohSQODRf",
+    "source_agent_group": "guest"
+  },
+  "2f011fec-148a-49d6-a2f1-eb3e00c9e7fb": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "2f011fec-148a-49d6-a2f1-eb3e00c9e7fb",
+    "timestamp": 1768469972,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "synchronized\u8f7b\u91cf\u7ea7\uff0cReentrantLock\u53ef\u91cd\u5165+\u516c\u5e73\u6027\uff0cReadWriteLock\u8bfb\u591a\u5199\u5c11\u573a\u666f\uff0cStampedLock\u4e50\u89c2\u8bfb\u63d0\u5347\u5e76\u53d1\u6027\u80fd\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "6c757dca-531f-4e20-845e-f27386eedfb9",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "37480f53-20d8-4172-abb6-b7f1b4c1870a": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "37480f53-20d8-4172-abb6-b7f1b4c1870a",
+    "timestamp": 1768469980,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "jstat\u5206\u6790GC\u9891\u7387\uff0cMAT\u5185\u5b58\u5feb\u7167\uff0cVisualVM\u7ebf\u7a0b\u5206\u6790\uff0c\u8c03\u6574\u5806\u5927\u5c0f\u3001GC\u7b56\u7565\uff0c\u4f18\u5316\u5bf9\u8c61\u751f\u547d\u5468\u671f\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "fef5be45-789c-4fc1-898d-df8b69db2c71",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "0bb1cd01-ba10-41aa-aecb-f693fb28fc71": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "0bb1cd01-ba10-41aa-aecb-f693fb28fc71",
+    "timestamp": 1768469988,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u7535\u5546\u9ad8\u5e76\u53d1\u67b6\u6784\uff0c\u7cbe\u901aSpring Cloud\u751f\u6001\uff0c\u64c5\u957f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "41e05a7c-6eb5-4a67-9426-a48fce029bd0",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "8f736231-3cfc-48c3-b921-17c5630ad104": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "8f736231-3cfc-48c3-b921-17c5630ad104",
+    "timestamp": 1768469994,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "8\u5e74Java\u5f00\u53d1\u7ecf\u9a8c\uff0c\u4e3b\u5bfc\u7535\u5546\u9ad8\u5e76\u53d1\u67b6\u6784\uff0c\u7cbe\u901aSpring Cloud\u751f\u6001\uff0c\u64c5\u957f\u5206\u5e03\u5f0f\u7cfb\u7edf\u8bbe\u8ba1\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "62082ed1-3c1e-463d-8433-3469ddbcd83d",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  },
+  "20968531-dec8-4e4c-b12d-12e798be8b48": {
+    "event_name": "thread.reply.post",
+    "source_id": "interviewee",
+    "event_id": "20968531-dec8-4e4c-b12d-12e798be8b48",
+    "timestamp": 1768470005,
+    "source_type": "agent",
+    "destination_id": "channel:interview-room",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "content": {
+        "text": "\u5cf0\u503cQPS 10\u4e07+\uff0c\u65e5\u8ba2\u5355\u767e\u4e07\u7ea7\uff0c\u5546\u54c1\u6570\u636eTB\u7ea7\u3002Spring Cloud\u5fae\u670d\u52a1\uff0cMySQL\u5206\u5e93\u5206\u8868\uff0cRedis\u96c6\u7fa4\uff0cRocketMQ\u6d88\u606f\u3002"
+      },
+      "sender_id": "interviewee",
+      "reply_to_id": "6e5c60ff-a757-4c40-9c12-d1c784b6fb27",
+      "channel": "interview-room",
+      "message_type": "reply_message"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "MBBo84wk2ZQ41MTtWAFXI7w2qnvph3Lm29Jda1oElzXkBrHP0UxQTiZqAN8RihSK",
+    "source_agent_group": "guest"
+  }
+}
