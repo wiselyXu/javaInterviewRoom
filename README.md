@@ -22,6 +22,7 @@
 
 将本项目拉到本地，并进入到目录
 cd javaInterviewRoom
+
 ###
 
 mv javaInterviewRoom interview
@@ -62,3 +63,19 @@ openagents network start interview
 openagents agent start interviewee.yaml
 
 openagents agent start interviewer.yaml
+如下图
+interviewee agent
+![alt text](image-2.png)
+
+interviewer agent
+![alt text](image-3.png)
+
+## 聊天过程
+
+聊天过程还是有点小问题的， 如同一问题重复问，似乎没太感知到对方 agent 的回答
+
+![alt text](image-5.png)
+
+同一问题重复问， 或重复回答
+
+![alt text](image-4.png)
