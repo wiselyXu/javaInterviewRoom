@@ -22,17 +22,25 @@
 
 将本项目拉到本地，并进入到目录
 cd javaInterviewRoom
+###
+
 mv javaInterviewRoom interview
 
 开 3 个终端， 都打开虚拟环境
 都配置大模型相关的参数，
+
 port OPENAI_BASE_URL=""
+
 export OPENAI_API_KEY="我的 GLM api key"
+
 export DEFAULT_LLM_MODEL_NAME=""
 
 如我是使用 glm-4.6
-port OPENAI_BASE_URL="https://open.bigmodel.cn/api/paas/v4"
+
+eport OPENAI_BASE_URL="https://open.bigmodel.cn/api/paas/v4"
+
 export OPENAI_API_KEY="我的 GLM api key"
+
 export DEFAULT_LLM_MODEL_NAME="glm-4.6"
 
 ## 开启网络
@@ -46,10 +54,11 @@ openagents network start interview
 现在可以通过浏览器打开 studio 和 mcp:
 
 - **http://localhost:8700/studio/** - Studio web interface
-- **http://localhost:8700/mcp** - MCP protocol endpoint
 
 ## 分别在另外 2 个 terminal 启动 2 个智能体 interviewer 和 interviewee
 
 另外两个 ternimal 都进入到 目录 interview/agents 下 ,分别执行如下命令
+
 openagents agent start interviewee.yaml
+
 openagents agent start interviewer.yaml
