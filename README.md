@@ -1,105 +1,55 @@
-# 初始化网络
+# java 面试房间
 
-openagents  network  init ./interview
+## 项目背景
 
-会有如下结果
-![alt text](image.png)
+当前 Java 技术岗位面试竞争日趋激烈，企业对 Java 专家及架构师的能力要求不断提升，面试官的考察维度也愈发全面、深入。对于候选人而言，缺乏真实面试场景的练习机会，往往难以精准把握考察重点、充分展现自身技术实力；而传统面试准备方式多为刷题、背知识点，无法模拟真实面试中的互动问答场景。基于此，我们开发了这套 Java 专家/架构师模拟面试智能体系统，为候选人提供高仿真的面试练习环境，助力其高效备战面试。
 
+## 核心功能
 
-## 
+本项目核心在于构建了一对具备专业交互能力的智能体——面试官智能体与面试者智能体，实现全流程模拟 Java 专家/架构师岗位面试：
 
-This workspace contains everything you need to start your first OpenAgents network with example agents.
+1.  简历驱动个性化面试：支持候选人上传个人简历，面试官智能体将基于简历中的项目经验、技术栈等信息，定制针对性的面试问题，避免通用化提问，提升练习精准度；
 
-## Agents
+2.  专业面试官智能提问：面试官智能体严格对标真实 Java 专家/架构师面试场景，围绕系统设计、Java 核心知识、中间件应用、问题排查等核心能力维度，进行结构化、层次化提问，并能针对候选人回答深挖技术细节；
+3.  面试者智能应答交互：面试者智能体可模拟候选人身份，基于自身设定的技术能力模型，对面试官智能体的问题作出专业、贴合实际经验的回答，完整还原面试问答流程；
+4.  高仿真面试场景还原：全程遵循真实面试的沟通逻辑与节奏，面试官智能体保持专业严谨的态度，面试者智能体展现真实的技术表达风格，为候选人提供沉浸式练习体验。
 
-| Agent | Type | Description |
-|-------|------|-------------|
-| `charlie` | YAML (LLM) | Replies to any message in a friendly manner |
-| `simple-worker` | Python | Basic agent that echoes responses |
-| `alex` | Python (LLM) | Uses `run_agent` for LLM-powered responses |
+## 环境准备（以作者的为例, ubuntu 系统）
 
-## Quick Start
+安装好 python3.14 环境
+建立好一个虚拟环境
+安装 openagents
 
-### 1. Start the Network
+将本项目拉到本地，并进入到目录
+cd javaInterviewRoom
+mv javaInterviewRoom interview
 
-```bash
-openagents network start .
-```
+开 3 个终端， 都打开虚拟环境
+都配置大模型相关的参数，
+port OPENAI_BASE_URL=""
+export OPENAI_API_KEY="我的 GLM api key"
+export DEFAULT_LLM_MODEL_NAME=""
 
-### 2. Access Studio
+如我是使用 glm-4.6
+port OPENAI_BASE_URL="https://open.bigmodel.cn/api/paas/v4"
+export OPENAI_API_KEY="我的 GLM api key"
+export DEFAULT_LLM_MODEL_NAME="glm-4.6"
 
-Open your browser to:
+## 开启网络
+
+回到 interview 的上一层目录
+执行
+openagents network start interview
+最终会有如下界面 ， 说明 OK
+![alt text](image-1.png)
+
+现在可以通过浏览器打开 studio 和 mcp:
+
 - **http://localhost:8700/studio/** - Studio web interface
 - **http://localhost:8700/mcp** - MCP protocol endpoint
 
-### 3. Launch an Agent
+## 分别在另外 2 个 terminal 启动 2 个智能体 interviewer 和 interviewee
 
-Choose one of the agents:
-
-**YAML Agent (recommended for beginners):**
-```bash
-openagents agent start agents/charlie.yaml
-```
-
-**Python Agent (basic):**
-```bash
-python agents/simple_agent.py
-```
-
-**Python Agent (with LLM):**
-```bash
-# Set your OpenAI API key first
-export OPENAI_API_KEY=your-api-key
-
-python agents/llm_agent.py
-```
-
-> **Note:** LLM-powered agents (charlie.yaml and llm_agent.py) require an OpenAI API key.
-
-### 4. Say Hello!
-
-Post a message to the `general` channel and the agent will respond!
-
-## Configuration
-
-- **Network Port:** 8700 (HTTP), 8600 (gRPC)
-- **Studio:** http://localhost:8700/studio/
-- **MCP:** http://localhost:8700/mcp
-- **Channel:** `general`
-
-## Agent Groups & Authentication
-
-This network has several agent groups configured:
-
-| Group | Password | Description |
-|-------|----------|-------------|
-| `guest` | (none) | Default group, no password required |
-| `admin` | `admin` | Full permissions to all features |
-| `coordinators` | `coordinators` | For router/coordinator agents |
-| `researchers` | `researchers` | For worker/research agents |
-
-### Logging in as Admin
-
-To access admin features in Studio:
-
-1. Open http://localhost:8700/studio/
-2. Click on the group selector (or login)
-3. Select group: **admin**
-4. Enter password: **admin**
-
-### Admin Features
-
-As an admin, you have full permissions including:
-
-- Access to all channels and messaging features
-- Create, edit, and delete forum topics
-- Manage wiki pages and approve edit proposals
-- Create and manage shared caches
-- Full access to all mod features
-
-## Next Steps
-
-- Customize `network.yaml` to add more channels or mods
-- Create your own agents by copying the examples
-- Check out the demos in the `demos/` folder for more advanced patterns
-- Visit [openagents.org/docs](https://openagents.org/docs/) for full documentation
+另外两个 ternimal 都进入到 目录 interview/agents 下 ,分别执行如下命令
+openagents agent start interviewee.yaml
+openagents agent start interviewer.yaml
